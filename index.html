@@ -6,7 +6,21 @@
 <title>TERRI'COMPÉTENCES — Plateforme complète 3 espaces</title>
 <style>
 :root{--bg:#f3f6fb;--card:#fff;--text:#0f172a;--muted:#52627a;--line:#d9e2ef;--primary:#2563eb;--dark:#172554;--good:#15803d;--bad:#b91c1c;--warn:#b45309;--soft:#eff6ff;--green:#ecfdf5;--orange:#fff7ed;--shadow:0 16px 40px rgba(15,23,42,.08)}
-*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font-family:Arial,Helvetica,sans-serif}header{background:linear-gradient(135deg,#111827,#1e3a8a);color:white;padding:28px 22px}.header-inner{max-width:1220px;margin:auto;display:grid;grid-template-columns:1.25fr .75fr;gap:24px;align-items:center}h1{margin:0 0 10px;font-size:34px}h2{margin:0 0 12px;font-size:25px}h3{margin:0 0 10px}.subtitle{margin:0 0 16px;color:#dbeafe;font-size:17px;line-height:1.5}.hero-card{background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.25);border-radius:22px;padding:20px}.hero-card strong{font-size:28px;display:block}.tags,.quick,.pills{display:flex;flex-wrap:wrap;gap:9px}.tag,.pill{border:1px solid #cbd5e1;background:#f8fafc;border-radius:999px;padding:7px 11px;font-size:13px;color:#0f172a}.tag{background:rgba(255,255,255,.12);color:white;border-color:rgba(255,255,255,.25);font-weight:bold}main{max-width:1220px;margin:auto;padding:28px 18px 60px}.stats-top{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-bottom:22px}.stat,.scorebox{background:#f8fafc;border:1px solid var(--line);border-radius:16px;padding:14px}.stat strong,.scorebox strong{display:block;color:#1d4ed8;font-size:26px}.space-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;margin-bottom:24px}.space-card{background:white;border:1px solid var(--line);border-radius:22px;padding:22px;box-shadow:var(--shadow);cursor:pointer;transition:.2s;min-height:205px}.space-card:hover{transform:translateY(-3px)}.space-card.active{border-color:var(--primary);outline:3px solid #bfdbfe}.icon{font-size:36px;margin-bottom:12px}.muted{color:var(--muted);line-height:1.55}.panel{display:none}.panel.active{display:block}.card{background:white;border:1px solid var(--line);border-radius:22px;padding:20px;box-shadow:var(--shadow);margin-bottom:20px}.grid-2{display:grid;grid-template-columns:1fr 1fr;gap:20px}.grid-3{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}label{font-weight:bold;display:block;margin:10px 0 6px}select,input,textarea{width:100%;border:1px solid #cbd5e1;border-radius:12px;padding:11px 12px;font-size:15px;background:white}textarea{min-height:140px;resize:vertical}button,.btn{border:0;border-radius:13px;background:var(--primary);color:white;font-weight:bold;padding:12px 15px;cursor:pointer;text-decoration:none;display:inline-block}button.secondary{background:#334155}button.light{background:#e5e7eb;color:#111827}button.good{background:var(--good)}button.bad{background:var(--bad)}button:disabled{opacity:.55;cursor:not-allowed}.quiz-zone{background:var(--soft);border:1px solid #bfdbfe;border-radius:18px;padding:16px;margin-top:16px}.question{font-size:21px;font-weight:bold;line-height:1.35;margin:12px 0 16px}.options{display:grid;grid-template-columns:1fr;gap:10px}.option{background:white;color:#111827;border:2px solid #dbe4f0;text-align:left;font-weight:normal}.option.correct{border-color:var(--good);background:#ecfdf5}.option.wrong{border-color:var(--bad);background:#fef2f2}.feedback{display:none;margin-top:14px;padding:14px;border-radius:14px}.feedback.good{display:block;background:#ecfdf5;border:1px solid #86efac}.feedback.bad{display:block;background:#fef2f2;border:1px solid #fecaca}.bar{height:12px;background:#e5e7eb;border-radius:999px;overflow:hidden;margin-top:8px}.bar span{display:block;height:100%;background:var(--primary);width:0%;transition:.25s}table{width:100%;border-collapse:collapse;font-size:14px;margin-top:10px}th,td{border:1px solid var(--line);padding:9px;text-align:left;vertical-align:top}th{background:#f8fafc}.advice{background:var(--orange);border:1px solid #fed7aa;border-radius:16px;padding:14px;margin-top:16px}.method{display:none;background:var(--green);border:1px solid #86efac;border-radius:16px;padding:14px;margin-top:12px}.method.show{display:block}.notice{background:#eef2ff;border:1px solid #c7d2fe;border-radius:16px;padding:14px;margin-top:14px}.small{font-size:13px;color:var(--muted)}.hidden{display:none!important}.recommend-list li{margin:6px 0}.topline{display:flex;justify-content:space-between;gap:12px;align-items:center;flex-wrap:wrap}.danger{color:var(--bad)}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font-family:Arial,Helvetica,sans-serif}header{background:linear-gradient(135deg,#111827,#1e3a8a);color:white;padding:28px 22px}.header-inner{max-width:1220px;margin:auto;display:grid;grid-template-columns:1.25fr .75fr;gap:24px;align-items:center}h1{margin:0 0 10px;font-size:34px}h2{margin:0 0 12px;font-size:25px}h3{margin:0 0 10px}.subtitle{margin:0 0 16px;color:#dbeafe;font-size:17px;line-height:1.5}.hero-card{background:rgba(30,58,138,.45);border:1px solid rgba(255,255,255,.25);border-radius:22px;padding:20px}.hero-card strong{font-size:28px;display:block}.tags,.quick,.pills{display:flex;flex-wrap:wrap;gap:9px}.tag,.pill{border:1px solid #cbd5e1;background:#f8fafc;border-radius:999px;padding:7px 11px;font-size:13px;color:#0f172a}.tag{background:rgba(255,255,255,.12);color:white;border-color:rgba(255,255,255,.25);font-weight:bold}main{max-width:1220px;margin:auto;padding:28px 18px 60px}.stats-top{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-bottom:22px}.stat,.scorebox{background:#f8fafc;border:1px solid var(--line);border-radius:16px;padding:14px}.stat strong,.scorebox strong{display:block;color:#1d4ed8;font-size:26px}.space-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:10px;margin-bottom:24px}.space-card{
+display:flex;
+flex-direction:column;
+justify-content:space-between;
+min-height:340px;
+height:auto;
+padding:15px;
+background:white;
+border:1px solid var(--line);
+border-radius:18px;
+box-shadow:var(--shadow);
+cursor:pointer;
+transition:.2s;
+}.space-card:hover{transform:translateY(-3px)}
+.space-card .muted{flex-grow:1;min-height:80px;}.space-card.active{border-color:var(--primary);outline:3px solid #bfdbfe}.icon{font-size:28px;margin-bottom:8px}.space-card h3{font-size:18px;line-height:1.2}.muted{color:var(--muted);line-height:1.55}.panel{display:none}.panel.active{display:block}.card{background:white;border:1px solid var(--line);border-radius:22px;padding:20px;box-shadow:var(--shadow);margin-bottom:20px}.grid-2{display:grid;grid-template-columns:1fr 1fr;gap:20px}.grid-3{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}label{font-weight:bold;display:block;margin:10px 0 6px}select,input,textarea{width:100%;border:1px solid #cbd5e1;border-radius:12px;padding:11px 12px;font-size:15px;background:white}textarea{min-height:140px;resize:vertical}button,.btn{border:0;border-radius:13px;background:var(--primary);color:white;font-weight:bold;padding:12px 15px;cursor:pointer;text-decoration:none;display:inline-block}button.secondary{background:#334155}button.light{background:#e5e7eb;color:#111827}button.good{background:var(--good)}button.bad{background:var(--bad)}button:disabled{opacity:.55;cursor:not-allowed}.quiz-zone{background:var(--soft);border:1px solid #bfdbfe;border-radius:18px;padding:16px;margin-top:16px}.question{font-size:21px;font-weight:bold;line-height:1.35;margin:12px 0 16px}.options{display:grid;grid-template-columns:1fr;gap:10px}.option{background:white;color:#111827;border:2px solid #dbe4f0;text-align:left;font-weight:normal}.option.correct{border-color:var(--good);background:#ecfdf5}.option.wrong{border-color:var(--bad);background:#fef2f2}.feedback{display:none;margin-top:14px;padding:14px;border-radius:14px}.feedback.good{display:block;background:#ecfdf5;border:1px solid #86efac}.feedback.bad{display:block;background:#fef2f2;border:1px solid #fecaca}.bar{height:12px;background:#e5e7eb;border-radius:999px;overflow:hidden;margin-top:8px}.bar span{display:block;height:100%;background:var(--primary);width:0%;transition:.25s}table{width:100%;border-collapse:collapse;font-size:14px;margin-top:10px}th,td{border:1px solid var(--line);padding:9px;text-align:left;vertical-align:top}th{background:#f8fafc}.advice{background:var(--orange);border:1px solid #fed7aa;border-radius:16px;padding:14px;margin-top:16px}.method{display:none;background:var(--green);border:1px solid #86efac;border-radius:16px;padding:14px;margin-top:12px}.method.show{display:block}.notice{background:#eef2ff;border:1px solid #c7d2fe;border-radius:16px;padding:14px;margin-top:14px}.small{font-size:13px;color:var(--muted)}.hidden{display:none!important}.recommend-list li{margin:6px 0}.topline{display:flex;justify-content:space-between;gap:12px;align-items:center;flex-wrap:wrap}.danger{color:var(--bad)}
 
 .resource-tabs{display:flex;flex-wrap:wrap;gap:10px;margin:10px 0 16px}.resource-tabs button{width:auto}.resource-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.resource-card{border:1px solid var(--line);border-radius:16px;background:#f8fafc;padding:14px}.resource-card h4{margin:0 0 8px;color:#172554}.resource-card a{display:block;color:#1d4ed8;text-decoration:none;font-weight:bold;margin:8px 0}.resource-card a:hover{text-decoration:underline}.resource-reco{background:#fff7ed;border:1px solid #fed7aa;border-radius:16px;padding:14px;margin-top:14px}.resource-path{background:#ecfdf5;border:1px solid #86efac;border-radius:16px;padding:14px;margin-top:14px}@media(max-width:900px){.resource-grid{grid-template-columns:1fr}}
 @media(max-width:900px){.header-inner,.space-grid,.grid-2,.grid-3,.stats-top{grid-template-columns:1fr}h1{font-size:28px}}
@@ -596,10 +610,217 @@ padding:12px;
   margin:3px 0;
 }
 
+
+.agent-pages-label{border-left:6px solid #2563eb;background:#ffffff;}
+.agent-menu-list{display:grid;gap:10px;margin-top:12px;}
+.agent-menu-list button{text-align:left;width:100%;}
+.agent-dedicated-page .topline.card{margin-bottom:16px;}
+.agent-return-btn{white-space:nowrap;}
+@media(max-width:900px){.agent-return-btn{width:100%;}.agent-dedicated-page .topline{align-items:stretch;}}
 </style>
+
+<style>
+.space-card .pill{display:none !important;}
+</style>
+
+<style>
+/* Mise en page corrigée : Préparer ma session à gauche, Passeport complet à droite */
+#agent > .card > .grid-2{
+  align-items:stretch;
+  grid-template-columns:minmax(0,1fr) minmax(0,1fr);
+}
+#agent #quizZone{
+  margin-top:18px;
+}
+.mini-progress-card{
+  background:#f8fafc;
+  border:1px solid var(--line);
+  border-radius:16px;
+  padding:14px;
+  margin-top:16px;
+}
+.mini-progress-card h3{
+  font-size:16px;
+  margin-bottom:10px;
+}
+.mini-progress-card .grid-2{
+  grid-template-columns:repeat(4,1fr);
+  gap:8px;
+}
+.mini-progress-card .scorebox{
+  padding:10px;
+  font-size:12px;
+}
+.mini-progress-card .scorebox strong{
+  font-size:20px;
+}
+.mini-progress-card .small{
+  margin-bottom:0;
+}
+.passport-side-card{
+  box-shadow:none !important;
+  margin-bottom:0 !important;
+  height:100%;
+  overflow:auto;
+}
+.passport-side-card .topline{
+  align-items:flex-start;
+}
+.passport-side-card .topline > div p{
+  font-size:13px;
+}
+.passport-side-card button{
+  padding:10px 12px;
+  font-size:13px;
+}
+.passport-side-card table{
+  font-size:12px;
+}
+.passport-side-card th,
+.passport-side-card td{
+  padding:7px;
+}
+.passport-side-card .resource-note,
+.passport-side-card .small{
+  font-size:12px;
+}
+@media(max-width:900px){
+  #agent > .card > .grid-2{
+    grid-template-columns:1fr;
+  }
+  .mini-progress-card .grid-2{
+    grid-template-columns:1fr 1fr;
+  }
+  .passport-side-card{
+    max-height:none;
+    overflow:visible;
+  }
+}
+</style>
+
+
+<style>
+.executive-actions{
+  display:flex;
+  gap:10px;
+  flex-wrap:wrap;
+  align-items:center;
+  margin-bottom:16px;
+}
+.executive-actions .executive-open-btn{
+  margin:0;
+}
+.executive-faq-btn{
+  background:#334155;
+}
+@media(max-width:700px){
+  .executive-actions .executive-open-btn{
+    width:100%;
+  }
+}
+
+
+
+
+
+
+/* Recherche intelligente interne — liste de résultats */
+.search-box{
+  position:absolute;
+  top:150px;
+  right:22px;
+  width:300px;
+  z-index:20;
+}
+.search-box input{
+  width:100%;
+  padding:8px 12px;
+  border-radius:14px;
+  border:1px solid rgba(255,255,255,.35);
+  background:rgba(30,58,138,.55);
+  color:#ffffff;
+  font-size:13px;
+  box-shadow:0 10px 24px rgba(15,23,42,.18);
+  outline:none;
+}
+.search-box input::placeholder{
+  color:#dbeafe;
+}
+.search-box input:focus{
+  background:rgba(30,58,138,.72);
+  border-color:#93c5fd;
+}
+#searchCounter{
+  font-size:11px;
+  color:#dbeafe;
+  margin-top:5px;
+  text-align:center;
+}
+.search-results-box{
+  display:none;
+  margin-top:7px;
+  max-height:230px;
+  overflow:auto;
+  background:rgba(15,23,42,.96);
+  border:1px solid rgba(255,255,255,.22);
+  border-radius:14px;
+  box-shadow:0 16px 34px rgba(15,23,42,.34);
+  padding:6px;
+}
+.search-result-item{
+  width:100%;
+  text-align:left;
+  background:rgba(255,255,255,.08);
+  color:#ffffff;
+  border:1px solid rgba(255,255,255,.12);
+  border-radius:10px;
+  padding:8px 9px;
+  margin:4px 0;
+  cursor:pointer;
+  font-size:12px;
+  line-height:1.25;
+}
+.search-result-item:hover{
+  background:rgba(37,99,235,.55);
+}
+.search-result-title{
+  display:block;
+  font-weight:700;
+}
+.search-result-context{
+  display:block;
+  color:#dbeafe;
+  font-size:11px;
+  margin-top:2px;
+}
+.search-current{
+  outline:3px solid #f97316 !important;
+  background:rgba(249,115,22,.30) !important;
+  box-shadow:0 0 0 6px rgba(249,115,22,.16) !important;
+  border-radius:8px;
+}
+@media(max-width:900px){
+  .search-box{
+    position:static;
+    width:100%;
+    max-width:340px;
+    margin:14px auto 0;
+  }
+}
+@media print{
+  .search-box{display:none!important;}
+}
+</style>
+
 </head>
 <body>
-<header><div id="liveDateTime" class="datetime-box" aria-label="Date et heure du prototype"><span class="dt-label">Version du prototype</span><span class="dt-date">Chargement...</span><span class="dt-time"></span></div><div class="header-inner"><div><h1>TERRI'COMPÉTENCES</h1><p class="subtitle">Un prototype de réflexion visant à favoriser l'accès à la préparation aux concours et examens professionnels, tout en accompagnant le développement des compétences des agents territoriaux.</p>
+<header><div id="liveDateTime" class="datetime-box" aria-label="Date et heure du prototype"><span class="dt-label">VERSION DU PROTOTYPE</span><span class="dt-date"></span><span class="dt-time"></span></div>
+<div class="search-box">
+<input type="text" id="siteSearch" placeholder="🔍 Rechercher..." oninput="searchSiteContent()">
+<div id="searchCounter"></div>
+<div id="searchResultsBox" class="search-results-box"></div>
+</div>
+<div class="header-inner"><div><h1>TERRI'COMPÉTENCES</h1><p class="subtitle">Un prototype de réflexion visant à favoriser l'accès à la préparation aux concours et examens professionnels, tout en accompagnant le développement des compétences des agents territoriaux.</p>
 <div class="header-presentation-row">
   <div class="header-presentation-text">
     Chaque année, de nombreux agents territoriaux préparent seuls les concours et examens professionnels, faute de place disponible, de financement accordé ou d’accompagnement adapté.
@@ -791,9 +1012,30 @@ Fermer
 <section class="stats-top"><div class="stat"><strong>1625</strong>Questions intégrées</div><div class="stat"><strong>5</strong>Espaces utilisateurs</div><div class="stat"><strong>40+</strong>Domaines couverts</div><div class="stat"><strong>100%</strong>Prototype fonctionnel</div></section>
 
 
+<div class="executive-actions">
 <button class="executive-open-btn" onclick="document.getElementById('syntheseExecutive').classList.add('open');">
 📋 Afficher la synthèse exécutive
 </button>
+<button class="executive-open-btn executive-faq-btn" onclick="toggleHomeFAQ()">
+❓ FAQ complète
+</button>
+</div>
+<div class="card hidden" id="agentFAQPage">
+<div class="topline"><h3>❓ FAQ complète — Préparation concours territoriaux</h3><button class="light" onclick="toggleHomeFAQ()">Fermer la FAQ</button></div>
+<p class="muted">Cette FAQ est destinée à l’agent qui prépare un concours ou un examen professionnel territorial. Elle complète le quiz, les fiches et les ressources officielles.</p>
+<div class="grid-2">
+<div class="notice"><h4>1. À quoi sert TERRI’CONCOURS ?</h4><p>À structurer la préparation : quiz, fiches, simulateur, suivi des scores, ressources officielles et progression par domaine.</p></div>
+<div class="notice"><h4>2. Les données sont-elles transmises ?</h4><p>Non, dans cette version HTML locale, les scores restent dans le navigateur. Pour une vraie mise en production, il faudrait une information RGPD, une durée de conservation, une base légale et des droits d’accès.</p></div>
+<div class="notice"><h4>3. Comment utiliser le quiz ?</h4><p>Choisir un thème, un niveau, puis répondre. Les bonnes et mauvaises réponses alimentent automatiquement les tableaux de score.</p></div>
+<div class="notice"><h4>4. Comment travailler efficacement ?</h4><p>Alterner : 20 questions, une fiche de révision, un entraînement de note administrative et une simulation orale.</p></div>
+<div class="notice"><h4>5. Que faire si un score est faible ?</h4><p>Revenir sur les fiches, refaire les erreurs, consulter les ressources officielles, puis relancer un quiz ciblé sur le domaine concerné.</p></div>
+<div class="notice"><h4>6. Quelles ressources officielles privilégier ?</h4><p>Vie publique pour la culture administrative, CNFPT/Wikiterritorial pour la préparation territoriale, DGCL pour les collectivités, CNIL pour le RGPD.</p></div>
+<div class="notice"><h4>7. Comment préparer la note administrative ?</h4><p>Lire la commande, classer les documents, dégager les enjeux, construire un plan opérationnel et rédiger dans un style administratif.</p></div>
+<div class="notice"><h4>8. Comment préparer l’oral ?</h4><p>Préparer la présentation du parcours, les motivations, les mises en situation managériales et les grands enjeux territoriaux.</p></div>
+<div class="notice"><h4>9. À quoi sert la trame Catégorie A ?</h4><p>Elle donne une méthode guidée pour comprendre le sujet, la commande, le dossier, le correcteur et le barème.</p></div>
+<div class="notice"><h4>10. Que faut-il vérifier côté RGPD ?</h4><p>Informer l’utilisateur, limiter les données collectées, sécuriser les données, prévoir les droits d’accès/suppression et éviter tout suivi nominatif non justifié.</p></div>
+</div>
+</div>
 
 <section class="executive-summary" id="syntheseExecutive">
   <h2>📋 Synthèse exécutive</h2>
@@ -898,22 +1140,13 @@ Fermer
 </section>
 
 
-<div class="notice" style="margin-bottom:18px">
-<strong>📌 Première visite recommandée (3 à 5 minutes)</strong>
-<ol>
-<li>Lire la synthèse exécutive</li>
-<li>Découvrir l'espace Agent</li>
-<li>Explorer l'espace DRH</li>
-<li>Consulter le pilotage stratégique</li>
-<li>Terminer par les limites et perspectives</li>
-</ol>
-</div>
+
 
 <div class="notice" style="margin-bottom:18px">
 <strong>🧩 Compétences démontrées par le prototype</strong><br>
 Analyse des besoins • Gestion de projet • Ressources humaines • GPEC • Innovation digitale • Ingénierie pédagogique • Conduite du changement • Communication • Culture territoriale • Développement des compétences
 </div>
-<h2>Choisissez votre espace</h2>
+<h2 id="choisissezEspace">Choisissez votre espace</h2>
 <section class="space-grid">
 <article class="space-card active" data-tab="agent" onclick="openSpaceNewPage('agent')"><div class="icon">👤</div><h3>Espace Utilisateur — Agent</h3><p class="muted">Préparer un concours, s'entraîner, être corrigé, suivre sa progression et exporter son passeport compétences.</p><span class="pill">Quiz</span><span class="pill">Oral</span><span class="pill">PDF</span></article>
 <article class="space-card" data-tab="drh" onclick="openSpaceNewPage('drh')"><div class="icon">🏛️</div><h3>Espace DRH / Service formation</h3><p class="muted">Cartographier les compétences, piloter la GPEC, construire le plan de formation et suivre les concours.</p><span class="pill">GPEC</span><span class="pill">Talents</span><span class="pill">Reporting</span></article>
@@ -932,7 +1165,10 @@ Analyse des besoins • Gestion de projet • Ressources humaines • GPEC • I
 
 <section id="limites" class="panel">
 <div class="card">
+<div class="topline">
 <h2>🔍 Limites et perspectives</h2>
+<button onclick="returnToAgentSpace()">Retour espace Agent</button>
+</div>
 <p class="muted">Cette rubrique vise à présenter les principales questions qu’un DGS, une DRH ou un organisme de formation pourrait légitimement se poser face à un projet de cette nature.</p>
 
 <div class="grid-2">
@@ -974,6 +1210,12 @@ Cette maquette n'a pas vocation à apporter toutes les réponses techniques, jur
 
 <section id="agent" class="panel active">
 <div class="card"><h2>🎓 TERRI'CONCOURS — Préparation aux concours et examens professionnels</h2><p class="muted">TERRI'CONCOURS est l'espace dédié à la préparation des concours territoriaux. Il permet à l'agent de s'entraîner, de mesurer sa progression, de télécharger ses scores et d'accéder aux ressources officielles de préparation.</p>
+
+<div class="concours-focus" id="concoursFocus"><h3>🎯 Mon objectif de progression</h3><p class="muted">Sélectionnez le concours ou l’examen préparé. Cet espace vous aide à organiser votre entraînement, suivre vos acquis et identifier les priorités de révision.</p><div class="grid-3"><div><label>Mon objectif</label><select id="concoursTarget" onchange="setConcoursTarget(this.value)"><option value="Attaché territorial">Attaché territorial</option><option value="Rédacteur territorial">Rédacteur territorial</option><option value="Technicien territorial">Technicien territorial</option><option value="Animateur territorial">Animateur territorial</option><option value="Examen professionnel">Examen professionnel</option></select></div><div><label>Ma priorité de révision</label><div class="diagnostic-card"><strong id="nextPriority">Non évalué</strong><span class="small">Selon mes résultats</span></div></div><div><label>Mes compétences acquises</label><div class="diagnostic-card"><strong id="validatedSkills">0 / 10</strong><span class="small">Domaines consolidés</span></div></div></div><div class="concours-actions"><button onclick="applyConcoursProfile()">Appliquer à mon entraînement</button><button class="light" onclick="document.getElementById('competencyDiagnosis').scrollIntoView({behavior:'smooth'})">Voir mes compétences</button><button class="light" onclick="openAgentDedicatedPage('agentPageJury')">Rapports de jury</button></div><div id="concoursSummary" class="resource-note small">Objectif par défaut : Attaché territorial. Les ressources concours restent uniquement dans l’espace Agent.</div></div>
+
+
+<div class="grid-2"><div class="card" style="box-shadow:none"><h3>⚙️ Préparer ma session</h3><div class="grid-3"><div><label>Thème</label><select id="category"></select></div><div><label>Niveau</label><select id="difficulty"><option value="Tous">Tous</option><option>Débutant</option><option>Intermédiaire</option><option>Concours</option><option>Expert</option></select></div><div><label>Mode</label><select id="mode"><option value="training">Entraînement avec correction immédiate</option><option value="exam">Mode examen</option><option value="oral">Mode oral / jury</option><option value="weak">Réviser mes erreurs</option></select></div></div><div class="quick" style="margin-top:14px"><button onclick="startQuiz()">▶ Lancer ma session</button><button class="secondary" onclick="showDashboardAgent()">📊 Ma progression</button><button class="light" onclick="toggleHelp()">❓ Aide</button><button class="light" onclick="resetStats()">♻ Réinitialiser mes scores</button></div><div id="helpBox" class="notice hidden"><strong>Aide :</strong> choisissez un thème puis lancez le quiz. Les bonnes et mauvaises réponses alimentent automatiquement le tableau Agent, l'espace DRH et l'espace CNFPT.</div>
+<div class="mini-progress-card"><h3>📈 Progression rapide</h3><div class="grid-2"><div class="scorebox"><strong id="score">0</strong>Points obtenus</div><div class="scorebox"><strong id="seen">0</strong>Questions travaillées</div><div class="scorebox"><strong id="success">0%</strong>Taux de réussite</div><div class="scorebox"><strong id="remaining">1600</strong>Questions restantes</div></div><div class="bar"><span id="progress"></span></div><p class="small">Conseil : alterner une courte session de questions, une fiche de révision et un cas pratique pour consolider durablement les acquis.</p></div>
 <div id="quizZone" class="quiz-zone agent-entry">
   <div class="question">🚀 Commencer ma session de révision</div>
   <p class="muted">Choisissez un thème, un niveau et un mode d'entraînement. Les résultats servent uniquement à suivre votre progression et à orienter vos révisions.</p>
@@ -986,13 +1228,8 @@ Cette maquette n'a pas vocation à apporter toutes les réponses techniques, jur
     <span class="small">Démarrage du parcours</span>
   </div>
 </div>
-<div class="concours-focus" id="concoursFocus"><h3>🎯 Mon objectif de progression</h3><p class="muted">Sélectionnez le concours ou l’examen préparé. Cet espace vous aide à organiser votre entraînement, suivre vos acquis et identifier les priorités de révision.</p><div class="grid-3"><div><label>Mon objectif</label><select id="concoursTarget" onchange="setConcoursTarget(this.value)"><option value="Attaché territorial">Attaché territorial</option><option value="Rédacteur territorial">Rédacteur territorial</option><option value="Technicien territorial">Technicien territorial</option><option value="Animateur territorial">Animateur territorial</option><option value="Examen professionnel">Examen professionnel</option></select></div><div><label>Ma priorité de révision</label><div class="diagnostic-card"><strong id="nextPriority">Non évalué</strong><span class="small">Selon mes résultats</span></div></div><div><label>Mes compétences acquises</label><div class="diagnostic-card"><strong id="validatedSkills">0 / 10</strong><span class="small">Domaines consolidés</span></div></div></div><div class="concours-actions"><button onclick="applyConcoursProfile()">Appliquer à mon entraînement</button><button class="light" onclick="document.getElementById('competencyDiagnosis').scrollIntoView({behavior:'smooth'})">Voir mes compétences</button><button class="light" onclick="document.getElementById('juryReports').scrollIntoView({behavior:'smooth'})">Rapports de jury</button></div><div id="concoursSummary" class="resource-note small">Objectif par défaut : Attaché territorial. Les ressources concours restent uniquement dans l’espace Agent.</div></div>
-
-
-<div class="grid-2"><div class="card" style="box-shadow:none"><h3>⚙️ Préparer ma session</h3><div class="grid-3"><div><label>Thème</label><select id="category"></select></div><div><label>Niveau</label><select id="difficulty"><option value="Tous">Tous</option><option>Débutant</option><option>Intermédiaire</option><option>Concours</option><option>Expert</option></select></div><div><label>Mode</label><select id="mode"><option value="training">Entraînement avec correction immédiate</option><option value="exam">Mode examen</option><option value="oral">Mode oral / jury</option><option value="weak">Réviser mes erreurs</option></select></div></div><div class="quick" style="margin-top:14px"><button onclick="startQuiz()">▶ Lancer ma session</button><button class="secondary" onclick="showDashboardAgent()">📊 Ma progression</button><button class="light" onclick="toggleHelp()">❓ Aide</button><button class="light" onclick="resetStats()">♻ Réinitialiser mes scores</button></div><div id="helpBox" class="notice hidden"><strong>Aide :</strong> choisissez un thème puis lancez le quiz. Les bonnes et mauvaises réponses alimentent automatiquement le tableau Agent, l'espace DRH et l'espace CNFPT.</div></div>
-<div class="card" style="box-shadow:none"><h3>📈 Ma progression personnelle</h3><div class="grid-2"><div class="scorebox"><strong id="score">0</strong>Points obtenus</div><div class="scorebox"><strong id="seen">0</strong>Questions travaillées</div><div class="scorebox"><strong id="success">0%</strong>Taux de réussite</div><div class="scorebox"><strong id="remaining">1600</strong>Questions restantes</div></div><div class="bar"><span id="progress"></span></div><p class="small">Conseil : alterner une courte session de questions, une fiche de révision et un cas pratique pour consolider durablement les acquis.</p></div></div></div>
-
-<div class="card" id="passportCompetencesAgent">
+</div>
+<div class="card passport-side-card" id="passportCompetencesAgent">
   <div class="topline">
     <div>
       <h3>🏆 Mon passeport compétences</h3>
@@ -1009,98 +1246,33 @@ w.print();
 })();">🖨️ Imprimer le passeport</button>
   </div>
   <div id="passportSummary" class="resource-note small" style="margin-top:14px;">Commencez le quiz pour générer un premier passeport compétences.</div>
-</div>
+</div></div></div>
+
+
 
 <div class="grid-2"><div class="card" id="competencyDiagnosis"><h3>🧠 Mes compétences à consolider</h3><p class="muted">Le diagnostic transforme les réponses en repères de progression : domaines maîtrisés, points fragiles et priorités de révision.</p><div class="diagnostic-grid"><div class="diagnostic-card"><strong id="diagAvg">0%</strong>Réussite moyenne</div><div class="diagnostic-card"><strong id="diagWeak">-</strong>Priorité à renforcer</div><div class="diagnostic-card"><strong id="diagValidated">0</strong>Domaines validés</div></div><table class="competency-table"><thead><tr><th>Domaine</th><th>Niveau</th><th>Lecture compétence</th><th>Priorité</th></tr></thead><tbody id="competencyRows"></tbody></table><div id="autoAdvice" class="advice"><strong>Conseil automatique :</strong> lancez le quiz pour obtenir une recommandation de révision.</div></div><div class="card"><h3>📊 Mon tableau de progression</h3><table><thead><tr><th>Domaine</th><th>Score</th><th>Progression</th><th>À retravailler</th></tr></thead><tbody id="scoreRows"></tbody></table><div class="quick" style="margin-top:14px"><button onclick="printScores()">📄 Télécharger / imprimer ma progression</button><button class="secondary" onclick="resetStats()">♻ Remettre les scores à zéro</button></div></div></div>
 
-<div class="grid-2"><div class="card" id="juryReports"><h3>📚 Rapports de jury et attendus concours</h3><p class="muted">Ce bloc répond à l’attente institutionnelle : rattacher l’entraînement à un concours, aux attendus du jury et aux erreurs fréquentes.</p><div id="juryResources"></div></div><div class="card"><h3>📝 Cas pratiques et note administrative</h3><p class="muted">En complément du QCM, l’agent travaille les productions attendues : diagnostic, plan, propositions opérationnelles et style administratif.</p><div id="casePracticeList"></div>
-<div class="resource-note" style="margin-top:14px;">
-<strong>🧭 Trames méthodologiques concours et examens professionnels</strong>
-<p class="small" style="margin:8px 0 12px;">Accéder aux méthodes complètes selon le niveau préparé : lecture du sujet, analyse de la commande, exploitation du dossier, attentes du correcteur et barème.</p>
-<div class="quick">
-<button class="light" onclick="showTrameCatA()">🧭 Trame Catégorie A</button>
-<button class="light" onclick="showTrameCatB()">🧭 Trame Catégorie B</button>
-<button class="light" onclick="showTrameCatC()">🧭 Trame Catégorie C</button>
-<button class="light" onclick="showTrameExamenPro()">🧭 Trame Examen professionnel</button>
-</div>
-</div>
+
+<div class="grid-2"><div class="card"><h3>📝 Cas pratiques et note administrative</h3><p class="muted">En complément du QCM, l’agent travaille les productions attendues : diagnostic, plan, propositions opérationnelles et style administratif.</p><div id="casePracticeList"></div></div><div class="card"><h3>Simulateur d’épreuve — réponse masquée</h3><label>Question</label><select id="simQuestion" onchange="loadSimulation()"></select><p><strong id="simTitle">Expliquez les principes budgétaires des collectivités territoriales.</strong></p><textarea id="simAnswer" placeholder="Rédigez votre réponse ici avant d'afficher la méthode..."></textarea><div class="quick" style="margin-top:12px"><button onclick="analyseSimulation()">Analyser ma réponse</button><button class="light" onclick="toggleMethod()">Afficher / masquer la méthode</button></div><div class="notice hidden" id="analysisBox"></div><div class="method" id="methodBox"></div></div></div>
+<div class="grid-2"><div class="card"><h3>🎤 Oral et posture professionnelle</h3><p class="muted">Préparation progressive : présentation du parcours, motivation, culture territoriale, mises en situation managériales.</p><div id="oralPlan"></div></div><div class="card agent-pages-label">
+  <h3>📂 Pages dédiées de l’espace Agent</h3>
+  <p class="muted">Ces boutons ouvrent une page interne dédiée, avec un retour direct vers l’espace Agent.</p>
+  <div class="agent-menu-list">
+    <button class="light" onclick="openAgentDedicatedPage('agentPageJury')">📚 Rapports de jury et attendus concours</button>
+    <button class="light" onclick="openAgentDedicatedPage('agentPageTrames')">🧭 Trames méthodologiques concours et examens professionnels</button>
+    <button class="light" onclick="openAgentDedicatedPage('agentPageFiches')">🏛 Fiches de révision intégrées</button>
+    <button class="light" onclick="openAgentDedicatedPage('agentPageThematiques')">📚 Thématiques transversales et actualités territoriales</button>
+    <button class="light" onclick="openAgentDedicatedPage('agentPageRessources')">📚 Ressources concours</button>
+    <button class="light" onclick="openAgentDedicatedPage('agentPageParcours')">📅 Parcours de révision intelligent — objectif Attaché territorial</button>
+  </div>
 </div></div>
+</section>
 
-<div class="grid-2"><div class="card"><h3>Simulateur d’épreuve — réponse masquée</h3><label>Question</label><select id="simQuestion" onchange="loadSimulation()"></select><p><strong id="simTitle">Expliquez les principes budgétaires des collectivités territoriales.</strong></p><textarea id="simAnswer" placeholder="Rédigez votre réponse ici avant d'afficher la méthode..."></textarea><div class="quick" style="margin-top:12px"><button onclick="analyseSimulation()">Analyser ma réponse</button><button class="light" onclick="toggleMethod()">Afficher / masquer la méthode</button></div><div id="analysisBox" class="notice hidden"></div><div id="methodBox" class="method"></div></div><div class="card"><h3>Fiches de révision intégrées</h3><div id="revisionCards" class="fiches-grid"></div></div></div>
-
-
-<div class="card" id="thematiquesTransversales">
-  <h3>📚 Thématiques transversales et actualités territoriales</h3>
-  <p class="muted">Ressources utiles pour consolider la culture territoriale, préparer les sujets d’actualité et enrichir les copies de concours.</p>
-  <div class="thematiques-grid">
-    <div class="thematique-card">
-      <h4>🔒 RGPD et protection des données</h4>
-      <p>Protection des données, droits des personnes, sécurité, collectivités territoriales et services numériques.</p>
-      <a href="https://www.cnil.fr/fr/rgpd-de-quoi-parle-t-on" target="_blank" rel="noopener">CNIL — RGPD : de quoi parle-t-on ?</a>
-      <a href="https://www.cnil.fr/fr/les-droits-pour-maitriser-vos-donnees-personnelles" target="_blank" rel="noopener">CNIL — droits des personnes</a>
-      <a href="https://www.cnil.fr/fr/collectivites-territoriales" target="_blank" rel="noopener">CNIL — collectivités territoriales</a>
-      <a href="https://www.cnil.fr/fr/securite-des-donnees" target="_blank" rel="noopener">CNIL — sécurité des données</a>
-    </div>
-    <div class="thematique-card">
-      <h4>💻 Transformation numérique</h4>
-      <p>Dématérialisation, inclusion numérique, relation usager, services publics numériques et cybersécurité.</p>
-      <a href="https://agence-cohesion-territoires.gouv.fr" target="_blank" rel="noopener">ANCT — transformation numérique</a>
-      <a href="https://www.banquedesterritoires.fr/" target="_blank" rel="noopener">Banque des Territoires — numérique</a>
-    </div>
-    <div class="thematique-card">
-      <h4>🌱 Transition écologique</h4>
-      <p>Sobriété, adaptation climatique, énergie, mobilité durable et politiques publiques locales.</p>
-      <a href="https://agirpourlatransition.ademe.fr/collectivites" target="_blank" rel="noopener">ADEME — collectivités</a>
-      <a href="https://www.courdescomptes.fr/fr" target="_blank" rel="noopener">Cour des comptes — rapports publics</a>
-    </div>
-    <div class="thematique-card">
-      <h4>📑 Commande publique</h4>
-      <p>Achat public, marchés, principes fondamentaux, sécurisation juridique et performance de l’achat.</p>
-      <a href="https://www.economie.gouv.fr/daj/commande-publique" target="_blank" rel="noopener">DAJ — commande publique</a>
-    </div>
-    <div class="thematique-card">
-      <h4>🏛 Institutions et décentralisation</h4>
-      <p>Organisation territoriale, compétences, intercommunalité, libre administration et action publique locale.</p>
-      <a href="https://www.vie-publique.fr/fiches" target="_blank" rel="noopener">Vie publique — fiches thématiques</a>
-      <a href="https://www.collectivites-locales.gouv.fr/" target="_blank" rel="noopener">DGCL — collectivités locales</a>
-    </div>
-    <div class="thematique-card">
-      <h4>🤝 Participation citoyenne</h4>
-      <p>Concertation, démocratie participative, budget participatif, relation usager et confiance publique.</p>
-      <a href="https://www.vie-publique.fr/" target="_blank" rel="noopener">Vie publique — action publique</a>
-      <a href="https://www.lagazettedescommunes.com/" target="_blank" rel="noopener">La Gazette des Communes — veille territoriale</a>
-    </div>
-  </div>
-</div>
-
-
-
-<div class="grid-2"><div class="card"><h3>🎤 Oral et posture professionnelle</h3><p class="muted">Préparation progressive : présentation du parcours, motivation, culture territoriale, mises en situation managériales.</p><div id="oralPlan"></div></div></div>
-
-
-<div class="card" id="ressourcesConcours"><h3>📚 Ressources concours</h3><p class="muted">Liens officiels et ressources utiles pour préparer les concours territoriaux : fiches, annales, rapports de jury, méthodologie, veille territoriale et entraînement oral.</p><div class="resource-tabs"><button onclick="document.getElementById('ressourcesConcours').scrollIntoView({behavior:'smooth'})">📚 Ressources</button><button class="light" onclick="document.getElementById('resourceReco').scrollIntoView({behavior:'smooth'})">🎯 Recommandations</button><button class="light" onclick="document.getElementById('resourcePath').scrollIntoView({behavior:'smooth'})">📅 Parcours</button><button class="light" onclick="showAgentFAQ()">❓ FAQ complète</button></div><div id="resourceReco" class="resource-reco"><strong>🎯 Ressources recommandées automatiquement :</strong><div id="resourceRecommendations" class="small" style="margin-top:8px">Lancez le quiz pour obtenir des ressources ciblées selon vos points faibles.</div></div><div class="resource-grid"><div class="resource-card"><h4>Institutions et culture territoriale</h4><a href="https://www.vie-publique.fr/fiches" target="_blank" rel="noopener">Vie publique — fiches thématiques</a><a href="https://www.vie-publique.fr/concours-de-la-fonction-publique-territoriale" target="_blank" rel="noopener">Vie publique — concours FPT</a><a href="https://www.collectivites-locales.gouv.fr/" target="_blank" rel="noopener">DGCL — collectivités locales</a><a href="https://www.service-public.fr/" target="_blank" rel="noopener">Service-public.fr</a></div><div class="resource-card"><h4>Préparation concours</h4><a href="https://www.cnfpt.fr/evoluer/preparation-aux-concours-concours-examens-professionnels/preparer-concours-ou-examen-professionnel/national" target="_blank" rel="noopener">CNFPT — préparer un concours</a><a href="https://www.wikiterritorial.cnfpt.fr/xwiki/bin/view/vitrine/Les%20fiches%20connaissances%20du%20cadre%20d%27emplois%20des%20attach%C3%A9s%20territoriaux%20%28concours%20d%27attach%C3%A9%20territorial%29" target="_blank" rel="noopener">Wikiterritorial — fiches Attaché territorial</a><a href="https://www.wikiterritorial.cnfpt.fr/xwiki/bin/view/vitrine/Des%20ressources%20A" target="_blank" rel="noopener">Wikiterritorial — ressources catégorie A</a><a href="https://fncdg.com/faq-concours/" target="_blank" rel="noopener">FNCDG — FAQ concours</a></div><div class="resource-card"><h4>Annales, jury et méthode</h4><a href="https://www.vie-publique.fr/catalogue/293178-selection-douvrages-preparation-aux-concours-administratifs" target="_blank" rel="noopener">Vie publique — ouvrages concours administratifs</a><a href="https://www.cnfpt.fr/sites/default/files/standalone/1735900187/84-fiche-prepa-attache-concours.pdf" target="_blank" rel="noopener">CNFPT — fiche préparation attaché</a><a href="https://www.cdg69.fr/" target="_blank" rel="noopener">CDG 69 — concours et examens</a><a href="https://www.fncdg.com/" target="_blank" rel="noopener">FNCDG — centres de gestion</a></div><div class="resource-card"><h4>Veille territoriale</h4><a href="https://www.lagazettedescommunes.com/" target="_blank" rel="noopener">La Gazette des Communes</a><a href="https://www.banquedesterritoires.fr/" target="_blank" rel="noopener">Banque des Territoires</a><a href="https://www.strategie.gouv.fr/" target="_blank" rel="noopener">France Stratégie</a><a href="https://www.courdescomptes.fr/fr" target="_blank" rel="noopener">Cour des comptes</a></div><div class="resource-card"><h4>Méthode note administrative</h4><p class="small">À travailler : lecture du sujet, tri des documents, problématique, plan opérationnel, préconisations, style administratif.</p><a href="https://www.cnfpt.fr/" target="_blank" rel="noopener">CNFPT — rechercher une préparation</a><a href="https://www.vie-publique.fr/catalogue" target="_blank" rel="noopener">Vie publique — catalogue concours</a></div><div class="resource-card"><h4>Oral et posture professionnelle</h4><p class="small">À travailler : présentation du parcours, motivation, mise en situation managériale, culture territoriale et posture d'encadrement.</p><a href="https://www.cnfpt.fr/" target="_blank" rel="noopener">CNFPT — formations et préparations</a><a href="https://www.wikiterritorial.cnfpt.fr/" target="_blank" rel="noopener">Wikiterritorial — ressources générales</a></div></div><div id="resourcePath" class="resource-path"><strong>📅 Parcours de révision intelligent — objectif Attaché territorial</strong><table><tr><th>Semaine</th><th>Domaine</th><th>Travail recommandé</th></tr><tr><td>1</td><td>Institutions</td><td>Fiches Vie publique + quiz ciblé</td></tr><tr><td>2</td><td>Collectivités / FPT</td><td>Wikiterritorial + cas pratiques</td></tr><tr><td>3</td><td>Finances locales</td><td>Budget, M57, principes budgétaires</td></tr><tr><td>4</td><td>RH / Management</td><td>Statut, droits et obligations, conduite du changement</td></tr><tr><td>5</td><td>Note administrative</td><td>Plan, diagnostic, propositions opérationnelles</td></tr><tr><td>6</td><td>Oral</td><td>Présentation, posture, mises en situation</td></tr></table></div></div>
-
-
-<div class="card hidden" id="agentFAQPage">
-  <div class="topline"><h3>❓ FAQ complète — Préparation concours territoriaux</h3><button class="light" onclick="hideAgentFAQ()">Fermer la FAQ</button></div>
-  <p class="muted">Cette FAQ est destinée à l’agent qui prépare un concours ou un examen professionnel territorial. Elle complète le quiz, les fiches et les ressources officielles.</p>
-  <div class="grid-2">
-    <div class="notice"><h4>1. À quoi sert TERRI’CONCOURS ?</h4><p>À structurer la préparation : quiz, fiches, simulateur, suivi des scores, ressources officielles et progression par domaine.</p></div>
-    <div class="notice"><h4>2. Les données sont-elles transmises ?</h4><p>Non, dans cette version HTML locale, les scores restent dans le navigateur. Pour une vraie mise en production, il faudrait une information RGPD, une durée de conservation, une base légale et des droits d’accès.</p></div>
-    <div class="notice"><h4>3. Comment utiliser le quiz ?</h4><p>Choisir un thème, un niveau, puis répondre. Les bonnes et mauvaises réponses alimentent automatiquement les tableaux de score.</p></div>
-    <div class="notice"><h4>4. Comment travailler efficacement ?</h4><p>Alterner : 20 questions, une fiche de révision, un entraînement de note administrative et une simulation orale.</p></div>
-    <div class="notice"><h4>5. Que faire si un score est faible ?</h4><p>Revenir sur les fiches, refaire les erreurs, consulter les ressources officielles, puis relancer un quiz ciblé sur le domaine concerné.</p></div>
-    <div class="notice"><h4>6. Quelles ressources officielles privilégier ?</h4><p>Vie publique pour la culture administrative, CNFPT/Wikiterritorial pour la préparation territoriale, DGCL pour les collectivités, CNIL pour le RGPD.</p></div>
-    <div class="notice"><h4>7. Comment préparer la note administrative ?</h4><p>Lire la commande, classer les documents, dégager les enjeux, construire un plan opérationnel et rédiger dans un style administratif.</p></div>
-    <div class="notice"><h4>8. Comment préparer l’oral ?</h4><p>Préparer la présentation du parcours, les motivations, les mises en situation managériales et les grands enjeux territoriaux.</p></div>
-    <div class="notice"><h4>9. À quoi sert la trame Catégorie A ?</h4><p>Elle donne une méthode guidée pour comprendre le sujet, la commande, le dossier, le correcteur et le barème.</p></div>
-    <div class="notice"><h4>10. Que faut-il vérifier côté RGPD ?</h4><p>Informer l’utilisateur, limiter les données collectées, sécuriser les données, prévoir les droits d’accès/suppression et éviter tout suivi nominatif non justifié.</p></div>
-  </div>
-</div>
-<div class="card hidden" id="trameCatAPage">
-  <div class="topline"><h3>🧭 Trame Concours Catégorie A</h3><button class="light" onclick="hideTrameCatA()">Fermer la trame</button></div>
-  <p class="muted">Trame méthodologique intégrée dans l’espace Agent : sujet, commande, explication détaillée, correcteur et barème.</p>
-  <iframe id="trameCatAIframe" title="Trame Concours Catégorie A" style="width:100%;height:760px;border:1px solid #d9e2ef;border-radius:16px;background:white" srcdoc="
+<section id="agentPageJury" class="panel agent-dedicated-page"><div class="card" id="juryReports"><div class="topline"><h2>📚 Rapports de jury et attendus concours</h2><button class="secondary agent-return-btn" onclick="returnToAgentPagesMenu()">⬅ Retour 📂 Pages dédiées de l’espace Agent</button></div><p class="muted">Ce bloc rattache l’entraînement au concours préparé, aux attendus du jury et aux erreurs fréquentes.</p><div id="juryResources"></div></div></section>
+<section id="agentPageTrames" class="panel agent-dedicated-page"><div class="card"><div class="topline"><h2>🧭 Trames méthodologiques concours et examens professionnels</h2><button class="secondary agent-return-btn" onclick="returnToAgentPagesMenu()">⬅ Retour 📂 Pages dédiées de l’espace Agent</button></div><p class="muted">Accédez aux méthodes complètes selon le niveau préparé : lecture du sujet, analyse de la commande, exploitation du dossier, attentes du correcteur et barème.</p><div class="quick"><button class="light" onclick="showTrameCatA()">🧭 Trame Catégorie A</button><button class="light" onclick="showTrameCatB()">🧭 Trame Catégorie B</button><button class="light" onclick="showTrameCatC()">🧭 Trame Catégorie C</button><button class="light" onclick="showTrameExamenPro()">🧭 Trame Examen professionnel</button></div></div><div class="card hidden" id="trameCatAPage">
+<div class="topline"><h3>🧭 Trame Concours Catégorie A</h3><button class="light" onclick="hideTrameCatA()">Fermer la trame</button></div>
+<p class="muted">Trame méthodologique intégrée dans l’espace Agent : sujet, commande, explication détaillée, correcteur et barème.</p>
+<iframe id="trameCatAIframe" srcdoc="
 &lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;fr&quot;&gt;
 &lt;head&gt;
@@ -1157,7 +1329,7 @@ th{background:#2c3e50;color:#fff}
   &lt;section id=&quot;sujet&quot; class=&quot;content active&quot;&gt;
     &lt;h2&gt;Onglet Sujet&lt;/h2&gt;
     &lt;div class=&quot;card yellow&quot;&gt;
-      &lt;h3&gt;1. Si c&#x27;est ton premier concours, commence ici&lt;/h3&gt;
+      &lt;h3&gt;1. Si c'est ton premier concours, commence ici&lt;/h3&gt;
       &lt;p&gt;Quand tu découvres l’épreuve, le plus important n’est pas de savoir tout de suite rédiger. Le plus important est de comprendre ce que le jury attend et comment tu dois lire le sujet.&lt;/p&gt;
       &lt;p&gt;Pense le sujet comme une mission professionnelle. On te met dans la peau d’un cadre territorial et on te demande de produire une note utile à un décideur.&lt;/p&gt;
     &lt;/div&gt;
@@ -1595,37 +1767,31 @@ th{background:#2c3e50;color:#fff}
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;script&gt;
-const tabs=document.querySelectorAll(&#x27;.tab[data-tab]&#x27;);
-const sections=[...document.querySelectorAll(&#x27;.content&#x27;)];
-function activate(id){tabs.forEach(t=&gt;t.classList.toggle(&#x27;active&#x27;, t.dataset.tab===id));sections.forEach(s=&gt;s.classList.toggle(&#x27;active&#x27;, s.id===id));window.scrollTo({top:0,behavior:&#x27;smooth&#x27;});}
-tabs.forEach(t=&gt;t.addEventListener(&#x27;click&#x27;,()=&gt;activate(t.dataset.tab)));
-document.getElementById(&#x27;printBtn&#x27;).addEventListener(&#x27;click&#x27;,()=&gt;window.print());
+const tabs=document.querySelectorAll('.tab[data-tab]');
+const sections=[...document.querySelectorAll('.content')];
+function activate(id){tabs.forEach(t=&gt;t.classList.toggle('active', t.dataset.tab===id));sections.forEach(s=&gt;s.classList.toggle('active', s.id===id));window.scrollTo({top:0,behavior:'smooth'});}
+tabs.forEach(t=&gt;t.addEventListener('click',()=&gt;activate(t.dataset.tab)));
+document.getElementById('printBtn').addEventListener('click',()=&gt;window.print());
 &lt;/script&gt;
 &lt;/body&gt;
-&lt;/html&gt;"></iframe>
+&lt;/html&gt;" style="width:100%;height:760px;border:1px solid #d9e2ef;border-radius:16px;background:white" title="Trame Concours Catégorie A"></iframe>
 </div>
-
 <div class="card hidden" id="trameCatBPage">
-  <div class="topline">
-    <h3>🧭 Trame Concours Catégorie B</h3>
-    <button class="light" onclick="hideTrameCatB()">Fermer la trame</button>
-  </div>
-  <p class="muted">
+<div class="topline">
+<h3>🧭 Trame Concours Catégorie B</h3>
+<button class="light" onclick="hideTrameCatB()">Fermer la trame</button>
+</div>
+<p class="muted">
     Trame méthodologique pour les concours et examens de catégorie B : situation professionnelle,
     application des règles, organisation d’un service et réponses opérationnelles.
   </p>
-
-  <iframe
-    id="trameCatBIframe"
-    title="Trame Concours Catégorie B - Onglets"
-    style="width:100%;height:760px;border:1px solid #d9e2ef;border-radius:16px;background:white"
-    srcdoc="<!DOCTYPE html>
-<html lang='fr'>
-<head>
-<meta charset='UTF-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1.0'>
-<title>Trame Concours Catégorie B - Onglets</title>
-<style>
+<iframe id="trameCatBIframe" srcdoc="&lt;!DOCTYPE html&gt;
+&lt;html lang='fr'&gt;
+&lt;head&gt;
+&lt;meta charset='UTF-8'&gt;
+&lt;meta name='viewport' content='width=device-width, initial-scale=1.0'&gt;
+&lt;title&gt;Trame Concours Catégorie B - Onglets&lt;/title&gt;
+&lt;style&gt;
   box-sizing:border-box;margin:0;padding:0
   body{font-family:Arial,Helvetica,sans-serif;background:#eef3f9;color:#1f2d3d;padding:18px;}
   .wrapper{max-width:1200px;margin:0 auto;background:#fff;border-radius:14px;overflow:hidden;
@@ -1678,456 +1844,488 @@ document.getElementById(&#x27;printBtn&#x27;).addEventListener(&#x27;click&#x27;
     .wrapper{box-shadow:none;border-radius:0;}
     .content{display:block;}
   }
-</style>
-</head>
-<body>
-<div class='wrapper'>
-  <div class='topbar'>
-    <h1>Trame Concours Catégorie B</h1>
-    <p>Situation professionnelle, application des règles, organisation d'un service et réponse opérationnelle.</p>
-  </div>
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;div class='wrapper'&gt;
+  &lt;div class='topbar'&gt;
+    &lt;h1&gt;Trame Concours Catégorie B&lt;/h1&gt;
+    &lt;p&gt;Situation professionnelle, application des règles, organisation d'un service et réponse opérationnelle.&lt;/p&gt;
+  &lt;/div&gt;
 
-  <div class='tabs'>
-    <button type='button' class='tab sujet active' data-tab='sujet'>Sujet</button>
-    <button type='button' class='tab commande' data-tab='commande'>Commande</button>
-    <button type='button' class='tab detail' data-tab='detail'>Explication détaillée</button>
-    <button type='button' class='tab correcteur' data-tab='correcteur'>Correcteur</button>
-    <button type='button' class='tab bareme' data-tab='bareme'>Barème</button>
-  </div>
+  &lt;div class='tabs'&gt;
+    &lt;button type='button' class='tab sujet active' data-tab='sujet'&gt;Sujet&lt;/button&gt;
+    &lt;button type='button' class='tab commande' data-tab='commande'&gt;Commande&lt;/button&gt;
+    &lt;button type='button' class='tab detail' data-tab='detail'&gt;Explication détaillée&lt;/button&gt;
+    &lt;button type='button' class='tab correcteur' data-tab='correcteur'&gt;Correcteur&lt;/button&gt;
+    &lt;button type='button' class='tab bareme' data-tab='bareme'&gt;Barème&lt;/button&gt;
+  &lt;/div&gt;
 
-  <div class='herobox'>
-    <p><strong>Idée clé :</strong> en catégorie B, le sujet te place dans une situation de service concrète.
-    On attend de toi une réponse <strong>pratique, réaliste et organisée</strong>, pas un exposé théorique.</p>
-  </div>
+  &lt;div class='herobox'&gt;
+    &lt;p&gt;&lt;strong&gt;Idée clé :&lt;/strong&gt; en catégorie B, le sujet te place dans une situation de service concrète.
+    On attend de toi une réponse &lt;strong&gt;pratique, réaliste et organisée&lt;/strong&gt;, pas un exposé théorique.&lt;/p&gt;
+  &lt;/div&gt;
 
-  <!-- Onglet SUJET -->
-  <section id='sujet' class='content active'>
-    <h2>Onglet Sujet – Catégorie B</h2>
+  &lt;!-- Onglet SUJET --&gt;
+  &lt;section id='sujet' class='content active'&gt;
+    &lt;h2&gt;Onglet Sujet – Catégorie B&lt;/h2&gt;
 
-    <div class='card orange'>
-      <h3>1. Ce qu’est un sujet de catégorie B</h3>
-      <p>
-        Un sujet de catégorie B décrit presque toujours une <strong>scène de travail</strong> :
+    &lt;div class='card orange'&gt;
+      &lt;h3&gt;1. Ce qu’est un sujet de catégorie B&lt;/h3&gt;
+      &lt;p&gt;
+        Un sujet de catégorie B décrit presque toujours une &lt;strong&gt;scène de travail&lt;/strong&gt; :
         un service, des usagers, une équipe, un problème concret à résoudre.
-      </p>
-      <ul>
-        <li>Il précise souvent le <span class='k'>service</span> (état civil, scolaire, technique, social…).</li>
-        <li>Il indique le <span class='k'>problème</span> (délai, incident, organisation, qualité du service…).</li>
-        <li>Il te place dans un <span class='k'>rôle</span> (agent confirmé, rédacteur, encadrant de proximité).</li>
-        <li>Il te donne une <span class='k'>mission</span> : proposer, organiser, améliorer, mettre en œuvre.</li>
-      </ul>
-    </div>
+      &lt;/p&gt;
+      &lt;ul&gt;
+        &lt;li&gt;Il précise souvent le &lt;span class='k'&gt;service&lt;/span&gt; (état civil, scolaire, technique, social…).&lt;/li&gt;
+        &lt;li&gt;Il indique le &lt;span class='k'&gt;problème&lt;/span&gt; (délai, incident, organisation, qualité du service…).&lt;/li&gt;
+        &lt;li&gt;Il te place dans un &lt;span class='k'&gt;rôle&lt;/span&gt; (agent confirmé, rédacteur, encadrant de proximité).&lt;/li&gt;
+        &lt;li&gt;Il te donne une &lt;span class='k'&gt;mission&lt;/span&gt; : proposer, organiser, améliorer, mettre en œuvre.&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
 
-    <div class='card blue'>
-      <h3>2. Les 4 questions à te poser dès le début</h3>
-      <table>
-        <tr><th>Question</th><th>Ce que tu cherches</th></tr>
-        <tr>
-          <td><strong>Où ?</strong></td>
-          <td>Le service, la taille de la commune/collectivité, le type de public accueilli.</td>
-        </tr>
-        <tr>
-          <td><strong>Quel problème ?</strong></td>
-          <td>Le dysfonctionnement concret : attente trop longue, erreurs, insatisfaction, incident.</td>
-        </tr>
-        <tr>
-          <td><strong>Pour qui ?</strong></td>
-          <td>Le destinataire : chef de service, directeur, maire, responsable de pôle.</td>
-        </tr>
-        <tr>
-          <td><strong>Avec quelles contraintes ?</strong></td>
-          <td>Moyens disponibles, délais, règles à respecter, partenaires internes/externes.</td>
-        </tr>
-      </table>
-      <p class='small'>
+    &lt;div class='card blue'&gt;
+      &lt;h3&gt;2. Les 4 questions à te poser dès le début&lt;/h3&gt;
+      &lt;table&gt;
+        &lt;tr&gt;&lt;th&gt;Question&lt;/th&gt;&lt;th&gt;Ce que tu cherches&lt;/th&gt;&lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Où ?&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Le service, la taille de la commune/collectivité, le type de public accueilli.&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Quel problème ?&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Le dysfonctionnement concret : attente trop longue, erreurs, insatisfaction, incident.&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Pour qui ?&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Le destinataire : chef de service, directeur, maire, responsable de pôle.&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Avec quelles contraintes ?&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Moyens disponibles, délais, règles à respecter, partenaires internes/externes.&lt;/td&gt;
+        &lt;/tr&gt;
+      &lt;/table&gt;
+      &lt;p class='small'&gt;
         Ces quatre questions t’évitent de partir dans un exposé général. Tu restes ancré dans la situation donnée.
-      </p>
-    </div>
+      &lt;/p&gt;
+    &lt;/div&gt;
 
-    <div class='card green'>
-      <h3>3. Exemple de sujet de catégorie B</h3>
-      <p>
-        <strong>Situation :</strong> « Vous êtes rédacteur territorial au service état civil d’une commune de
+    &lt;div class='card green'&gt;
+      &lt;h3&gt;3. Exemple de sujet de catégorie B&lt;/h3&gt;
+      &lt;p&gt;
+        &lt;strong&gt;Situation :&lt;/strong&gt; « Vous êtes rédacteur territorial au service état civil d’une commune de
         30 000 habitants. Le maire vous demande de proposer des mesures pour réduire les temps d’attente au guichet,
         tout en maintenant la qualité de l’accueil. Rédigez une note exposant le constat, les enjeux et les solutions
         que vous proposez. »
-      </p>
-      <ul>
-        <li><span class='k'>Service</span> : état civil, commune moyenne, accueil du public.</li>
-        <li><span class='k'>Problème concret</span> : temps d’attente trop longs.</li>
-        <li><span class='k'>Destinataire</span> : le maire (niveau politique, besoin de visibilité et d’actions). </li>
-        <li><span class='k'>Mission</span> : proposer des mesures concrètes, réalistes et organisées.</li>
-      </ul>
-    </div>
+      &lt;/p&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;span class='k'&gt;Service&lt;/span&gt; : état civil, commune moyenne, accueil du public.&lt;/li&gt;
+        &lt;li&gt;&lt;span class='k'&gt;Problème concret&lt;/span&gt; : temps d’attente trop longs.&lt;/li&gt;
+        &lt;li&gt;&lt;span class='k'&gt;Destinataire&lt;/span&gt; : le maire (niveau politique, besoin de visibilité et d’actions). &lt;/li&gt;
+        &lt;li&gt;&lt;span class='k'&gt;Mission&lt;/span&gt; : proposer des mesures concrètes, réalistes et organisées.&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
 
-    <div class='card yellow'>
-      <h3>4. Ce qu’un débutant doit retenir</h3>
-      <ul>
-        <li>En catégorie B, le sujet n’est pas un thème à commenter mais une <strong>situation à traiter</strong>.</li>
-        <li>Il faut toujours repérer : le service, le problème, les usagers, les moyens, les contraintes.</li>
-        <li>La réponse doit montrer que tu sais <strong>travailler dans un service</strong>, pas seulement réciter un cours.</li>
-      </ul>
-    </div>
-  </section>
+    &lt;div class='card yellow'&gt;
+      &lt;h3&gt;4. Ce qu’un débutant doit retenir&lt;/h3&gt;
+      &lt;ul&gt;
+        &lt;li&gt;En catégorie B, le sujet n’est pas un thème à commenter mais une &lt;strong&gt;situation à traiter&lt;/strong&gt;.&lt;/li&gt;
+        &lt;li&gt;Il faut toujours repérer : le service, le problème, les usagers, les moyens, les contraintes.&lt;/li&gt;
+        &lt;li&gt;La réponse doit montrer que tu sais &lt;strong&gt;travailler dans un service&lt;/strong&gt;, pas seulement réciter un cours.&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+  &lt;/section&gt;
 
-  <!-- Onglet COMMANDE -->
-  <section id='commande' class='content'>
-    <h2>Onglet Commande – ce qu’on te demande exactement</h2>
+  &lt;!-- Onglet COMMANDE --&gt;
+  &lt;section id='commande' class='content'&gt;
+    &lt;h2&gt;Onglet Commande – ce qu’on te demande exactement&lt;/h2&gt;
 
-    <div class='card blue'>
-      <h3>1. Les verbes typiques en catégorie B</h3>
-      <table>
-        <tr><th>Verbe utilisé</th><th>Ce que cela signifie</th><th>Ce que tu dois faire</th></tr>
-        <tr>
-          <td><strong>Proposer</strong></td>
-          <td>On attend des actions concrètes, hiérarchisées, réalistes.</td>
-          <td>Présenter plusieurs mesures possibles, argumentées.</td>
-        </tr>
-        <tr>
-          <td><strong>Organiser</strong></td>
-          <td>On attend une répartition des tâches, des horaires, des moyens.</td>
-          <td>Décrire qui fait quoi, quand, comment, avec quels outils.</td>
-        </tr>
-        <tr>
-          <td><strong>Améliorer</strong></td>
-          <td>On part d’un problème existant et on cherche des pistes de progrès.</td>
-          <td>Montrer les points faibles et expliquer comment les corriger.</td>
-        </tr>
-        <tr>
-          <td><strong>Mettre en œuvre</strong></td>
-          <td>On attend un plan d’action opérationnel.</td>
-          <td>Définir les étapes, les responsables, les délais, le suivi.</td>
-        </tr>
-      </table>
-    </div>
+    &lt;div class='card blue'&gt;
+      &lt;h3&gt;1. Les verbes typiques en catégorie B&lt;/h3&gt;
+      &lt;table&gt;
+        &lt;tr&gt;&lt;th&gt;Verbe utilisé&lt;/th&gt;&lt;th&gt;Ce que cela signifie&lt;/th&gt;&lt;th&gt;Ce que tu dois faire&lt;/th&gt;&lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Proposer&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;On attend des actions concrètes, hiérarchisées, réalistes.&lt;/td&gt;
+          &lt;td&gt;Présenter plusieurs mesures possibles, argumentées.&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Organiser&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;On attend une répartition des tâches, des horaires, des moyens.&lt;/td&gt;
+          &lt;td&gt;Décrire qui fait quoi, quand, comment, avec quels outils.&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Améliorer&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;On part d’un problème existant et on cherche des pistes de progrès.&lt;/td&gt;
+          &lt;td&gt;Montrer les points faibles et expliquer comment les corriger.&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Mettre en œuvre&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;On attend un plan d’action opérationnel.&lt;/td&gt;
+          &lt;td&gt;Définir les étapes, les responsables, les délais, le suivi.&lt;/td&gt;
+        &lt;/tr&gt;
+      &lt;/table&gt;
+    &lt;/div&gt;
 
-    <div class='card orange'>
-      <h3>2. Les éléments clés de la commande</h3>
-      <p>Pour bien lire la commande, repère :</p>
-      <ul>
-        <li>Le <strong>cadre</strong> : commune, service, type de public.</li>
-        <li>Le <strong>rôle</strong> : rédacteur, agent de maîtrise, encadrant de proximité.</li>
-        <li>Le <strong>destinataire</strong> : chef de service, directeur, maire.</li>
-        <li>Le <strong>but</strong> : informer, proposer, organiser, sécuriser.</li>
-      </ul>
-      <p class='small'>
+    &lt;div class='card orange'&gt;
+      &lt;h3&gt;2. Les éléments clés de la commande&lt;/h3&gt;
+      &lt;p&gt;Pour bien lire la commande, repère :&lt;/p&gt;
+      &lt;ul&gt;
+        &lt;li&gt;Le &lt;strong&gt;cadre&lt;/strong&gt; : commune, service, type de public.&lt;/li&gt;
+        &lt;li&gt;Le &lt;strong&gt;rôle&lt;/strong&gt; : rédacteur, agent de maîtrise, encadrant de proximité.&lt;/li&gt;
+        &lt;li&gt;Le &lt;strong&gt;destinataire&lt;/strong&gt; : chef de service, directeur, maire.&lt;/li&gt;
+        &lt;li&gt;Le &lt;strong&gt;but&lt;/strong&gt; : informer, proposer, organiser, sécuriser.&lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;p class='small'&gt;
         Exemple : « rédiger une note à l’attention du maire, proposant des mesures concrètes pour réduire les délais. »
-      </p>
-    </div>
+      &lt;/p&gt;
+    &lt;/div&gt;
 
-    <div class='card green'>
-      <h3>3. Reformuler la commande en une phrase</h3>
-      <p>
+    &lt;div class='card green'&gt;
+      &lt;h3&gt;3. Reformuler la commande en une phrase&lt;/h3&gt;
+      &lt;p&gt;
         Avant de construire ton plan, reformule la commande pour toi-même :
-      </p>
-      <p><span class='badge'>Exemple de reformulation</span></p>
-      <p>
+      &lt;/p&gt;
+      &lt;p&gt;&lt;span class='badge'&gt;Exemple de reformulation&lt;/span&gt;&lt;/p&gt;
+      &lt;p&gt;
         « On me demande, en tant que rédacteur au service état civil, de proposer au maire des mesures concrètes
         et réalistes pour réduire les temps d’attente au guichet, en respectant les règles et en gardant un bon accueil. »
-      </p>
-      <p class='small'>
+      &lt;/p&gt;
+      &lt;p class='small'&gt;
         Cette phrase t’accompagne pendant tout le devoir. Elle t’évite le hors-sujet et les réponses trop théoriques.
-      </p>
-    </div>
-  </section>
+      &lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/section&gt;
 
-  <!-- Onglet EXPLICATION DETAILLEE -->
-  <section id='detail' class='content'>
-    <h2>Onglet Explication détaillée – la méthode pas à pas</h2>
+  &lt;!-- Onglet EXPLICATION DETAILLEE --&gt;
+  &lt;section id='detail' class='content'&gt;
+    &lt;h2&gt;Onglet Explication détaillée – la méthode pas à pas&lt;/h2&gt;
 
-    <div class='card yellow'>
-      <h3>1. Étape 1 – Comprendre la situation</h3>
-      <ol>
-        <li>Relire le sujet en soulignant le service, le problème, le public, le destinataire.</li>
-        <li>Repérer les contraintes : horaires, effectifs, budget, réglementation.</li>
-        <li>Identifier les enjeux : qualité du service, satisfaction des usagers, conditions de travail.</li>
-      </ol>
-    </div>
+    &lt;div class='card yellow'&gt;
+      &lt;h3&gt;1. Étape 1 – Comprendre la situation&lt;/h3&gt;
+      &lt;ol&gt;
+        &lt;li&gt;Relire le sujet en soulignant le service, le problème, le public, le destinataire.&lt;/li&gt;
+        &lt;li&gt;Repérer les contraintes : horaires, effectifs, budget, réglementation.&lt;/li&gt;
+        &lt;li&gt;Identifier les enjeux : qualité du service, satisfaction des usagers, conditions de travail.&lt;/li&gt;
+      &lt;/ol&gt;
+    &lt;/div&gt;
 
-    <div class='card blue'>
-      <h3>2. Étape 2 – Faire un petit diagnostic</h3>
-      <p>Le diagnostic en catégorie B reste simple mais concret :</p>
-      <ul>
-        <li>Qu’est-ce qui ne fonctionne pas aujourd’hui (faits, exemples) ?</li>
-        <li>Quelles en sont les causes probables (organisation, procédures, communication…) ?</li>
-        <li>Quelles conséquences pour les usagers, pour l’équipe, pour la collectivité ?</li>
-      </ul>
-    </div>
+    &lt;div class='card blue'&gt;
+      &lt;h3&gt;2. Étape 2 – Faire un petit diagnostic&lt;/h3&gt;
+      &lt;p&gt;Le diagnostic en catégorie B reste simple mais concret :&lt;/p&gt;
+      &lt;ul&gt;
+        &lt;li&gt;Qu’est-ce qui ne fonctionne pas aujourd’hui (faits, exemples) ?&lt;/li&gt;
+        &lt;li&gt;Quelles en sont les causes probables (organisation, procédures, communication…) ?&lt;/li&gt;
+        &lt;li&gt;Quelles conséquences pour les usagers, pour l’équipe, pour la collectivité ?&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
 
-    <div class='card green'>
-      <h3>3. Étape 3 – Proposer des actions concrètes</h3>
-      <p>Les propositions doivent être :</p>
-      <ul>
-        <li><strong>Réalisables</strong> avec les moyens d’un service territorial.</li>
-        <li><strong>Organisées</strong> (qui fait quoi, quand, comment).</li>
-        <li><strong>Hiérarchisées</strong> (priorités, étapes).</li>
-      </ul>
-      <p>Tu peux structurer ainsi :</p>
-      <ol>
-        <li>Actions immédiates (organisation simple, information aux usagers).</li>
-        <li>Actions à moyen terme (procédures, outils, coordination avec d’autres services).</li>
-        <li>Actions de suivi (indicateurs, retours des usagers, ajustements).</li>
-      </ol>
-    </div>
+    &lt;div class='card green'&gt;
+      &lt;h3&gt;3. Étape 3 – Proposer des actions concrètes&lt;/h3&gt;
+      &lt;p&gt;Les propositions doivent être :&lt;/p&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;strong&gt;Réalisables&lt;/strong&gt; avec les moyens d’un service territorial.&lt;/li&gt;
+        &lt;li&gt;&lt;strong&gt;Organisées&lt;/strong&gt; (qui fait quoi, quand, comment).&lt;/li&gt;
+        &lt;li&gt;&lt;strong&gt;Hiérarchisées&lt;/strong&gt; (priorités, étapes).&lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;p&gt;Tu peux structurer ainsi :&lt;/p&gt;
+      &lt;ol&gt;
+        &lt;li&gt;Actions immédiates (organisation simple, information aux usagers).&lt;/li&gt;
+        &lt;li&gt;Actions à moyen terme (procédures, outils, coordination avec d’autres services).&lt;/li&gt;
+        &lt;li&gt;Actions de suivi (indicateurs, retours des usagers, ajustements).&lt;/li&gt;
+      &lt;/ol&gt;
+    &lt;/div&gt;
 
-    <div class='card purple'>
-      <h3>4. Étape 4 – Organisation et suivi</h3>
-      <ul>
-        <li>Dire qui est responsable de chaque action.</li>
-        <li>Donner un calendrier indicatif (court / moyen terme).</li>
-        <li>Prévoir comment on vérifiera que ça fonctionne (indicateurs simples).</li>
-      </ul>
-      <p class='small'>
+    &lt;div class='card purple'&gt;
+      &lt;h3&gt;4. Étape 4 – Organisation et suivi&lt;/h3&gt;
+      &lt;ul&gt;
+        &lt;li&gt;Dire qui est responsable de chaque action.&lt;/li&gt;
+        &lt;li&gt;Donner un calendrier indicatif (court / moyen terme).&lt;/li&gt;
+        &lt;li&gt;Prévoir comment on vérifiera que ça fonctionne (indicateurs simples).&lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;p class='small'&gt;
         Le jury veut voir que tu sais penser comme un encadrant de proximité : concret, organisé, responsable.
-      </p>
-    </div>
-  </section>
+      &lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/section&gt;
 
-  <!-- Onglet CORRECTEUR -->
-  <section id='correcteur' class='content'>
-    <h2>Onglet Correcteur – ce que le jury regarde</h2>
+  &lt;!-- Onglet CORRECTEUR --&gt;
+  &lt;section id='correcteur' class='content'&gt;
+    &lt;h2&gt;Onglet Correcteur – ce que le jury regarde&lt;/h2&gt;
 
-    <div class='card blue'>
-      <h3>1. Les critères principaux</h3>
-      <table>
-        <tr><th>Critère</th><th>Ce que regarde le jury</th></tr>
-        <tr>
-          <td>Compréhension du sujet</td>
-          <td>Le devoir traite bien le problème concret, sans hors-sujet.</td>
-        </tr>
-        <tr>
-          <td>Diagnostic</td>
-          <td>Les causes et les enjeux sont identifiés de manière réaliste.</td>
-        </tr>
-        <tr>
-          <td>Propositions</td>
-          <td>Les mesures sont concrètes, faisables et hiérarchisées.</td>
-        </tr>
-        <tr>
-          <td>Organisation</td>
-          <td>On voit qui fait quoi, comment et avec quel suivi.</td>
-        </tr>
-        <tr>
-          <td>Expression écrite</td>
-          <td>Langage professionnel, clarté, respect des codes administratifs.</td>
-        </tr>
-      </table>
-    </div>
+    &lt;div class='card blue'&gt;
+      &lt;h3&gt;1. Les critères principaux&lt;/h3&gt;
+      &lt;table&gt;
+        &lt;tr&gt;&lt;th&gt;Critère&lt;/th&gt;&lt;th&gt;Ce que regarde le jury&lt;/th&gt;&lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;Compréhension du sujet&lt;/td&gt;
+          &lt;td&gt;Le devoir traite bien le problème concret, sans hors-sujet.&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;Diagnostic&lt;/td&gt;
+          &lt;td&gt;Les causes et les enjeux sont identifiés de manière réaliste.&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;Propositions&lt;/td&gt;
+          &lt;td&gt;Les mesures sont concrètes, faisables et hiérarchisées.&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;Organisation&lt;/td&gt;
+          &lt;td&gt;On voit qui fait quoi, comment et avec quel suivi.&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;Expression écrite&lt;/td&gt;
+          &lt;td&gt;Langage professionnel, clarté, respect des codes administratifs.&lt;/td&gt;
+        &lt;/tr&gt;
+      &lt;/table&gt;
+    &lt;/div&gt;
 
-    <div class='card orange'>
-      <h3>2. Erreurs fréquentes en catégorie B</h3>
-      <ul>
-        <li>Rester dans le « cours » sans parler du service et des usagers.</li>
-        <li>Proposer des solutions irréalistes (trop coûteuses, trop floues, trop générales).</li>
-        <li>Oublier l’équipe, les collègues, les contraintes d’organisation.</li>
-        <li>Ne pas répondre vraiment à la demande du destinataire.</li>
-      </ul>
-    </div>
-  </section>
+    &lt;div class='card orange'&gt;
+      &lt;h3&gt;2. Erreurs fréquentes en catégorie B&lt;/h3&gt;
+      &lt;ul&gt;
+        &lt;li&gt;Rester dans le « cours » sans parler du service et des usagers.&lt;/li&gt;
+        &lt;li&gt;Proposer des solutions irréalistes (trop coûteuses, trop floues, trop générales).&lt;/li&gt;
+        &lt;li&gt;Oublier l’équipe, les collègues, les contraintes d’organisation.&lt;/li&gt;
+        &lt;li&gt;Ne pas répondre vraiment à la demande du destinataire.&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+  &lt;/section&gt;
 
-  <!-- Onglet BAREME -->
-  <section id='bareme' class='content'>
-    <h2>Onglet Barème – exemple de répartition</h2>
+  &lt;!-- Onglet BAREME --&gt;
+  &lt;section id='bareme' class='content'&gt;
+    &lt;h2&gt;Onglet Barème – exemple de répartition&lt;/h2&gt;
 
-    <div class='card green'>
-      <h3>1. Exemple de barème Catégorie B</h3>
-      <table>
-        <tr><th>Élément évalué</th><th>Points possibles</th><th>Commentaire</th></tr>
-        <tr>
-          <td>Compréhension du sujet et de la commande</td>
-          <td>5 points</td>
-          <td>Reprise claire de la situation, du problème et du destinataire.</td>
-        </tr>
-        <tr>
-          <td>Diagnostic (causes, enjeux, contraintes)</td>
-          <td>5 points</td>
-          <td>Analyse simple mais juste, liée au terrain.</td>
-        </tr>
-        <tr>
-          <td>Propositions concrètes et hiérarchisées</td>
-          <td>8 points</td>
-          <td>Mesures réalistes, organisées, tenant compte des moyens.</td>
-        </tr>
-        <tr>
-          <td>Organisation et suivi</td>
-          <td>4 points</td>
-          <td>Répartition des rôles, calendrier, indicateurs simples.</td>
-        </tr>
-        <tr>
-          <td>Qualité de la rédaction</td>
-          <td>3 points</td>
-          <td>Langage professionnel, clarté, structure, orthographe.</td>
-        </tr>
-      </table>
-      <p class='small'>
+    &lt;div class='card green'&gt;
+      &lt;h3&gt;1. Exemple de barème Catégorie B&lt;/h3&gt;
+      &lt;table&gt;
+        &lt;tr&gt;&lt;th&gt;Élément évalué&lt;/th&gt;&lt;th&gt;Points possibles&lt;/th&gt;&lt;th&gt;Commentaire&lt;/th&gt;&lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;Compréhension du sujet et de la commande&lt;/td&gt;
+          &lt;td&gt;5 points&lt;/td&gt;
+          &lt;td&gt;Reprise claire de la situation, du problème et du destinataire.&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;Diagnostic (causes, enjeux, contraintes)&lt;/td&gt;
+          &lt;td&gt;5 points&lt;/td&gt;
+          &lt;td&gt;Analyse simple mais juste, liée au terrain.&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;Propositions concrètes et hiérarchisées&lt;/td&gt;
+          &lt;td&gt;8 points&lt;/td&gt;
+          &lt;td&gt;Mesures réalistes, organisées, tenant compte des moyens.&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;Organisation et suivi&lt;/td&gt;
+          &lt;td&gt;4 points&lt;/td&gt;
+          &lt;td&gt;Répartition des rôles, calendrier, indicateurs simples.&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;Qualité de la rédaction&lt;/td&gt;
+          &lt;td&gt;3 points&lt;/td&gt;
+          &lt;td&gt;Langage professionnel, clarté, structure, orthographe.&lt;/td&gt;
+        &lt;/tr&gt;
+      &lt;/table&gt;
+      &lt;p class='small'&gt;
         Ce barème est un exemple : il t’aide à voir où se jouent les points et comment orienter ton effort.
-      </p>
-    </div>
-  </section>
-</div>
+      &lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/section&gt;
+&lt;/div&gt;
 
-<script>
+&lt;script&gt;
   const tabs = document.querySelectorAll('.tab');
   const contents = document.querySelectorAll('.content');
-  tabs.forEach(tab => {
-    tab.addEventListener('click', () => {
-      tabs.forEach(t => t.classList.remove('active'));
-      contents.forEach(c => c.classList.remove('active'));
+  tabs.forEach(tab =&gt; {
+    tab.addEventListener('click', () =&gt; {
+      tabs.forEach(t =&gt; t.classList.remove('active'));
+      contents.forEach(c =&gt; c.classList.remove('active'));
       tab.classList.add('active');
       document.getElementById(tab.getAttribute('data-tab')).classList.add('active');
     });
   });
-</script>
-</body>
-</html>"
-  ></iframe>
+&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;" style="width:100%;height:760px;border:1px solid #d9e2ef;border-radius:16px;background:white" title="Trame Concours Catégorie B - Onglets"></iframe>
 </div>
 <div class="card hidden" id="trameCatCPage">
-  <div class="topline"><h3>🧭 Trame Concours / Examen Catégorie C</h3><button class="light" onclick="hideTrameCatC()">Fermer la trame</button></div>
-  <p class="muted">Trame adaptée aux concours et examens de catégorie C : compréhension des consignes, connaissances métier, respect des procédures, relation usager et posture professionnelle de terrain.</p>
-
-  <div class="grid-2">
-    <div class="notice">
-      <h4>🎯 Logique de l’épreuve</h4>
-      <ul>
-        <li>Vérifier les savoirs de base utiles au poste et au cadre d’emplois.</li>
-        <li>Évaluer la capacité à comprendre une consigne et à y répondre clairement.</li>
-        <li>Apprécier le respect des procédures, de la sécurité, de la confidentialité et de la hiérarchie.</li>
-        <li>Identifier une posture de service public : fiabilité, ponctualité, neutralité, accueil.</li>
-      </ul>
-    </div>
-
-    <div class="notice">
-      <h4>🧩 Méthode écrite recommandée</h4>
-      <ol>
-        <li>Lire la question deux fois et souligner le verbe d’action : expliquer, citer, compléter, calculer.</li>
-        <li>Répondre directement à ce qui est demandé, sans développement inutile.</li>
-        <li>Utiliser des phrases courtes, précises et professionnelles.</li>
-        <li>Vérifier l’orthographe, les unités, les dates, les règles ou les étapes de procédure.</li>
-      </ol>
-    </div>
-
-    <div class="notice">
-      <h4>🗂️ Réponse-type à privilégier</h4>
-      <ul>
-        <li><strong>1. La règle ou la consigne :</strong> ce qui doit être respecté.</li>
-        <li><strong>2. L’action concrète :</strong> ce que l’agent fait dans la situation.</li>
-        <li><strong>3. Le point de vigilance :</strong> sécurité, usager, confidentialité, hiérarchie.</li>
-        <li><strong>4. La transmission :</strong> alerter, rendre compte, orienter ou tracer si nécessaire.</li>
-      </ul>
-    </div>
-
-    <div class="notice">
-      <h4>🎤 Oral / entretien</h4>
-      <ul>
-        <li>Présenter simplement son parcours et sa motivation.</li>
-        <li>Montrer que l’on comprend les missions du poste visé.</li>
-        <li>Répondre aux mises en situation avec bon sens professionnel.</li>
-        <li>Valoriser l’expérience de terrain, la relation usager et le respect des consignes.</li>
-      </ul>
-    </div>
-
-    <div class="notice">
-      <h4>⚠️ Erreurs fréquentes</h4>
-      <ul>
-        <li>Réponse trop courte, floue ou hors sujet.</li>
-        <li>Vocabulaire familier ou insuffisamment professionnel.</li>
-        <li>Oubli des règles d’accueil, de sécurité ou de confidentialité.</li>
-        <li>Absence de rendu-compte à la hiérarchie en cas de difficulté.</li>
-      </ul>
-    </div>
-
-    <div class="notice">
-      <h4>✅ Entraînement conseillé</h4>
-      <ul>
-        <li>Réviser les missions du cadre d’emplois et le fonctionnement de base d’une collectivité.</li>
-        <li>S’entraîner sur des questions courtes et des cas pratiques simples.</li>
-        <li>Préparer des exemples concrets de situations professionnelles vécues.</li>
-        <li>Travailler l’expression écrite et orale : clarté, politesse, précision.</li>
-      </ul>
-    </div>
-  </div>
-
-  <div class="resource-note small">
+<div class="topline"><h3>🧭 Trame Concours / Examen Catégorie C</h3><button class="light" onclick="hideTrameCatC()">Fermer la trame</button></div>
+<p class="muted">Trame adaptée aux concours et examens de catégorie C : compréhension des consignes, connaissances métier, respect des procédures, relation usager et posture professionnelle de terrain.</p>
+<div class="grid-2">
+<div class="notice">
+<h4>🎯 Logique de l’épreuve</h4>
+<ul>
+<li>Vérifier les savoirs de base utiles au poste et au cadre d’emplois.</li>
+<li>Évaluer la capacité à comprendre une consigne et à y répondre clairement.</li>
+<li>Apprécier le respect des procédures, de la sécurité, de la confidentialité et de la hiérarchie.</li>
+<li>Identifier une posture de service public : fiabilité, ponctualité, neutralité, accueil.</li>
+</ul>
+</div>
+<div class="notice">
+<h4>🧩 Méthode écrite recommandée</h4>
+<ol>
+<li>Lire la question deux fois et souligner le verbe d’action : expliquer, citer, compléter, calculer.</li>
+<li>Répondre directement à ce qui est demandé, sans développement inutile.</li>
+<li>Utiliser des phrases courtes, précises et professionnelles.</li>
+<li>Vérifier l’orthographe, les unités, les dates, les règles ou les étapes de procédure.</li>
+</ol>
+</div>
+<div class="notice">
+<h4>🗂️ Réponse-type à privilégier</h4>
+<ul>
+<li><strong>1. La règle ou la consigne :</strong> ce qui doit être respecté.</li>
+<li><strong>2. L’action concrète :</strong> ce que l’agent fait dans la situation.</li>
+<li><strong>3. Le point de vigilance :</strong> sécurité, usager, confidentialité, hiérarchie.</li>
+<li><strong>4. La transmission :</strong> alerter, rendre compte, orienter ou tracer si nécessaire.</li>
+</ul>
+</div>
+<div class="notice">
+<h4>🎤 Oral / entretien</h4>
+<ul>
+<li>Présenter simplement son parcours et sa motivation.</li>
+<li>Montrer que l’on comprend les missions du poste visé.</li>
+<li>Répondre aux mises en situation avec bon sens professionnel.</li>
+<li>Valoriser l’expérience de terrain, la relation usager et le respect des consignes.</li>
+</ul>
+</div>
+<div class="notice">
+<h4>⚠️ Erreurs fréquentes</h4>
+<ul>
+<li>Réponse trop courte, floue ou hors sujet.</li>
+<li>Vocabulaire familier ou insuffisamment professionnel.</li>
+<li>Oubli des règles d’accueil, de sécurité ou de confidentialité.</li>
+<li>Absence de rendu-compte à la hiérarchie en cas de difficulté.</li>
+</ul>
+</div>
+<div class="notice">
+<h4>✅ Entraînement conseillé</h4>
+<ul>
+<li>Réviser les missions du cadre d’emplois et le fonctionnement de base d’une collectivité.</li>
+<li>S’entraîner sur des questions courtes et des cas pratiques simples.</li>
+<li>Préparer des exemples concrets de situations professionnelles vécues.</li>
+<li>Travailler l’expression écrite et orale : clarté, politesse, précision.</li>
+</ul>
+</div>
+</div>
+<div class="resource-note small">
     Sources institutionnelles utilisées pour structurer cette trame : CNFPT — tests d’auto-évaluation concours/examens, ressources de préparation catégorie C et préparation à l’oral ; Wikiterritorial — épreuves orales et entretien avec le jury.
   </div>
 </div>
 <div class="card hidden" id="trameExamenProPage">
-  <div class="topline"><h3>🧭 Trame Examen professionnel</h3><button class="light" onclick="hideTrameExamenPro()">Fermer la trame</button></div>
-  <p class="muted">Trame adaptée aux examens professionnels : valoriser l’expérience acquise, démontrer une prise de recul, relier les missions exercées aux compétences attendues et montrer l’aptitude à évoluer vers le grade ou les responsabilités visés.</p>
-
-  <div class="grid-2">
-    <div class="notice">
-      <h4>🎯 Logique de l’examen professionnel</h4>
-      <ul>
-        <li>Apprécier l’expérience professionnelle et la capacité à en tirer des enseignements.</li>
-        <li>Vérifier les connaissances utiles au grade visé et à l’environnement territorial.</li>
-        <li>Identifier une capacité d’évolution : autonomie, responsabilité, méthode, recul.</li>
-        <li>Évaluer la motivation et la cohérence du projet professionnel.</li>
-      </ul>
-    </div>
-
-    <div class="notice">
-      <h4>🧩 Structure de présentation orale</h4>
-      <ol>
-        <li><strong>Parcours :</strong> fonctions exercées, environnement, responsabilités.</li>
-        <li><strong>Réalisations :</strong> deux ou trois situations significatives et vérifiables.</li>
-        <li><strong>Compétences :</strong> savoir-faire, savoir-être, connaissances acquises.</li>
-        <li><strong>Projection :</strong> motivation, grade visé, contribution future au service public.</li>
-      </ol>
-    </div>
-
-    <div class="notice">
-      <h4>📝 Méthode pour l’écrit</h4>
-      <ul>
-        <li>Identifier clairement la commande : analyse, note, rapport, cas pratique ou questions.</li>
-        <li>Mobiliser l’expérience sans remplacer l’analyse par un récit personnel.</li>
-        <li>Construire une réponse structurée : contexte, cadre, analyse, solution, suivi.</li>
-        <li>Adopter un style administratif : neutre, précis, factuel et professionnel.</li>
-      </ul>
-    </div>
-
-    <div class="notice">
-      <h4>🎤 Questions fréquentes du jury</h4>
-      <ul>
-        <li>Pourquoi souhaitez-vous accéder à ce grade ou à ces responsabilités ?</li>
-        <li>Quelle réalisation illustre le mieux votre progression professionnelle ?</li>
-        <li>Comment réagissez-vous face à un conflit, une urgence ou une erreur ?</li>
-        <li>Que signifie pour vous le sens du service public ?</li>
-      </ul>
-    </div>
-
-    <div class="notice">
-      <h4>⚠️ Erreurs fréquentes</h4>
-      <ul>
-        <li>Réciter son CV sans analyse ni sélection.</li>
-        <li>Décrire des tâches sans démontrer les compétences acquises.</li>
-        <li>Manquer de projection vers le grade visé.</li>
-        <li>Tenir un discours trop personnel, défensif ou insuffisamment professionnel.</li>
-      </ul>
-    </div>
-
-    <div class="notice">
-      <h4>✅ Entraînement conseillé</h4>
-      <ul>
-        <li>Préparer une présentation de 5 minutes, structurée et chronométrée.</li>
-        <li>Relier chaque expérience à une compétence ou à une responsabilité attendue.</li>
-        <li>Préparer des exemples précis : difficulté, action menée, résultat, enseignement.</li>
-        <li>Réviser l’environnement territorial, les droits et obligations, l’organisation du service public.</li>
-      </ul>
-    </div>
-  </div>
-
-  <div class="resource-note small">
+<div class="topline"><h3>🧭 Trame Examen professionnel</h3><button class="light" onclick="hideTrameExamenPro()">Fermer la trame</button></div>
+<p class="muted">Trame adaptée aux examens professionnels : valoriser l’expérience acquise, démontrer une prise de recul, relier les missions exercées aux compétences attendues et montrer l’aptitude à évoluer vers le grade ou les responsabilités visés.</p>
+<div class="grid-2">
+<div class="notice">
+<h4>🎯 Logique de l’examen professionnel</h4>
+<ul>
+<li>Apprécier l’expérience professionnelle et la capacité à en tirer des enseignements.</li>
+<li>Vérifier les connaissances utiles au grade visé et à l’environnement territorial.</li>
+<li>Identifier une capacité d’évolution : autonomie, responsabilité, méthode, recul.</li>
+<li>Évaluer la motivation et la cohérence du projet professionnel.</li>
+</ul>
+</div>
+<div class="notice">
+<h4>🧩 Structure de présentation orale</h4>
+<ol>
+<li><strong>Parcours :</strong> fonctions exercées, environnement, responsabilités.</li>
+<li><strong>Réalisations :</strong> deux ou trois situations significatives et vérifiables.</li>
+<li><strong>Compétences :</strong> savoir-faire, savoir-être, connaissances acquises.</li>
+<li><strong>Projection :</strong> motivation, grade visé, contribution future au service public.</li>
+</ol>
+</div>
+<div class="notice">
+<h4>📝 Méthode pour l’écrit</h4>
+<ul>
+<li>Identifier clairement la commande : analyse, note, rapport, cas pratique ou questions.</li>
+<li>Mobiliser l’expérience sans remplacer l’analyse par un récit personnel.</li>
+<li>Construire une réponse structurée : contexte, cadre, analyse, solution, suivi.</li>
+<li>Adopter un style administratif : neutre, précis, factuel et professionnel.</li>
+</ul>
+</div>
+<div class="notice">
+<h4>🎤 Questions fréquentes du jury</h4>
+<ul>
+<li>Pourquoi souhaitez-vous accéder à ce grade ou à ces responsabilités ?</li>
+<li>Quelle réalisation illustre le mieux votre progression professionnelle ?</li>
+<li>Comment réagissez-vous face à un conflit, une urgence ou une erreur ?</li>
+<li>Que signifie pour vous le sens du service public ?</li>
+</ul>
+</div>
+<div class="notice">
+<h4>⚠️ Erreurs fréquentes</h4>
+<ul>
+<li>Réciter son CV sans analyse ni sélection.</li>
+<li>Décrire des tâches sans démontrer les compétences acquises.</li>
+<li>Manquer de projection vers le grade visé.</li>
+<li>Tenir un discours trop personnel, défensif ou insuffisamment professionnel.</li>
+</ul>
+</div>
+<div class="notice">
+<h4>✅ Entraînement conseillé</h4>
+<ul>
+<li>Préparer une présentation de 5 minutes, structurée et chronométrée.</li>
+<li>Relier chaque expérience à une compétence ou à une responsabilité attendue.</li>
+<li>Préparer des exemples précis : difficulté, action menée, résultat, enseignement.</li>
+<li>Réviser l’environnement territorial, les droits et obligations, l’organisation du service public.</li>
+</ul>
+</div>
+</div>
+<div class="resource-note small">
     Sources institutionnelles utilisées pour structurer cette trame : CNFPT — préparations aux concours et examens professionnels, méthodologie des écrits, préparation à l’oral ; Wikiterritorial — entretien avec le jury ; Concours-territorial — notes de cadrage et annales.
   </div>
+</div></section>
+<section id="agentPageFiches" class="panel agent-dedicated-page"><div class="card"><div class="topline"><h2>🏛 Fiches de révision intégrées</h2><button class="secondary agent-return-btn" onclick="returnToAgentPagesMenu()">⬅ Retour 📂 Pages dédiées de l’espace Agent</button></div><p class="muted">Institutions, collectivités, fonction publique territoriale, finances locales, RH, management public, commande publique, numérique, transition écologique et oral.</p><div id="revisionCards" class="fiches-grid"></div></div></section>
+<section id="agentPageThematiques" class="panel agent-dedicated-page"><div class="topline card"><h2>📚 Thématiques transversales et actualités territoriales</h2><button class="secondary agent-return-btn" onclick="returnToAgentPagesMenu()">⬅ Retour 📂 Pages dédiées de l’espace Agent</button></div><div class="card" id="thematiquesTransversales">
+<h3>📚 Thématiques transversales et actualités territoriales</h3>
+<p class="muted">Ressources utiles pour consolider la culture territoriale, préparer les sujets d’actualité et enrichir les copies de concours.</p>
+<div class="thematiques-grid">
+<div class="thematique-card">
+<h4>🔒 RGPD et protection des données</h4>
+<p>Protection des données, droits des personnes, sécurité, collectivités territoriales et services numériques.</p>
+<a href="https://www.cnil.fr/fr/rgpd-de-quoi-parle-t-on" rel="noopener" target="_blank">CNIL — RGPD : de quoi parle-t-on ?</a>
+<a href="https://www.cnil.fr/fr/les-droits-pour-maitriser-vos-donnees-personnelles" rel="noopener" target="_blank">CNIL — droits des personnes</a>
+<a href="https://www.cnil.fr/fr/collectivites-territoriales" rel="noopener" target="_blank">CNIL — collectivités territoriales</a>
+<a href="https://www.cnil.fr/fr/securite-des-donnees" rel="noopener" target="_blank">CNIL — sécurité des données</a>
 </div>
+<div class="thematique-card">
+<h4>💻 Transformation numérique</h4>
+<p>Dématérialisation, inclusion numérique, relation usager, services publics numériques et cybersécurité.</p>
+<a href="https://agence-cohesion-territoires.gouv.fr" rel="noopener" target="_blank">ANCT — transformation numérique</a>
+<a href="https://www.banquedesterritoires.fr/" rel="noopener" target="_blank">Banque des Territoires — numérique</a>
+</div>
+<div class="thematique-card">
+<h4>🌱 Transition écologique</h4>
+<p>Sobriété, adaptation climatique, énergie, mobilité durable et politiques publiques locales.</p>
+<a href="https://agirpourlatransition.ademe.fr/collectivites" rel="noopener" target="_blank">ADEME — collectivités</a>
+<a href="https://www.courdescomptes.fr/fr" rel="noopener" target="_blank">Cour des comptes — rapports publics</a>
+</div>
+<div class="thematique-card">
+<h4>📑 Commande publique</h4>
+<p>Achat public, marchés, principes fondamentaux, sécurisation juridique et performance de l’achat.</p>
+<a href="https://www.economie.gouv.fr/daj/commande-publique" rel="noopener" target="_blank">DAJ — commande publique</a>
+</div>
+<div class="thematique-card">
+<h4>🏛 Institutions et décentralisation</h4>
+<p>Organisation territoriale, compétences, intercommunalité, libre administration et action publique locale.</p>
+<a href="https://www.vie-publique.fr/fiches" rel="noopener" target="_blank">Vie publique — fiches thématiques</a>
+<a href="https://www.collectivites-locales.gouv.fr/" rel="noopener" target="_blank">DGCL — collectivités locales</a>
+</div>
+<div class="thematique-card">
+<h4>🤝 Participation citoyenne</h4>
+<p>Concertation, démocratie participative, budget participatif, relation usager et confiance publique.</p>
+<a href="https://www.vie-publique.fr/" rel="noopener" target="_blank">Vie publique — action publique</a>
+<a href="https://www.lagazettedescommunes.com/" rel="noopener" target="_blank">La Gazette des Communes — veille territoriale</a>
+</div>
+</div>
+</div></section>
+<section id="agentPageRessources" class="panel agent-dedicated-page"><div class="topline card"><h2>📚 Ressources concours</h2><button class="secondary agent-return-btn" onclick="returnToAgentPagesMenu()">⬅ Retour 📂 Pages dédiées de l’espace Agent</button></div><div class="card" id="ressourcesConcours"><h3>📚 Ressources concours</h3><p class="muted">Liens officiels et ressources utiles pour préparer les concours territoriaux : fiches, annales, rapports de jury, méthodologie, veille territoriale et entraînement oral.</p><div class="resource-tabs"><button onclick="document.getElementById('ressourcesConcours').scrollIntoView({behavior:'smooth'})">📚 Ressources</button><button class="light" onclick="document.getElementById('resourceReco').scrollIntoView({behavior:'smooth'})">🎯 Recommandations</button><button class="light" onclick="openAgentDedicatedPage('agentPageParcours')">📅 Parcours</button></div><div class="resource-reco" id="resourceReco"><strong>🎯 Ressources recommandées automatiquement :</strong><div class="small" id="resourceRecommendations" style="margin-top:8px">Lancez le quiz pour obtenir des ressources ciblées selon vos points faibles.</div></div><div class="resource-grid"><div class="resource-card"><h4>Institutions et culture territoriale</h4><a href="https://www.vie-publique.fr/fiches" rel="noopener" target="_blank">Vie publique — fiches thématiques</a><a href="https://www.vie-publique.fr/concours-de-la-fonction-publique-territoriale" rel="noopener" target="_blank">Vie publique — concours FPT</a><a href="https://www.collectivites-locales.gouv.fr/" rel="noopener" target="_blank">DGCL — collectivités locales</a><a href="https://www.service-public.fr/" rel="noopener" target="_blank">Service-public.fr</a></div><div class="resource-card"><h4>Préparation concours</h4><a href="https://www.cnfpt.fr/evoluer/preparation-aux-concours-concours-examens-professionnels/preparer-concours-ou-examen-professionnel/national" rel="noopener" target="_blank">CNFPT — préparer un concours</a><a href="https://www.wikiterritorial.cnfpt.fr/xwiki/bin/view/vitrine/Les%20fiches%20connaissances%20du%20cadre%20d%27emplois%20des%20attach%C3%A9s%20territoriaux%20%28concours%20d%27attach%C3%A9%20territorial%29" rel="noopener" target="_blank">Wikiterritorial — fiches Attaché territorial</a><a href="https://www.wikiterritorial.cnfpt.fr/xwiki/bin/view/vitrine/Des%20ressources%20A" rel="noopener" target="_blank">Wikiterritorial — ressources catégorie A</a><a href="https://fncdg.com/faq-concours/" rel="noopener" target="_blank">FNCDG — FAQ concours</a></div><div class="resource-card"><h4>Annales, jury et méthode</h4><a href="https://www.vie-publique.fr/catalogue/293178-selection-douvrages-preparation-aux-concours-administratifs" rel="noopener" target="_blank">Vie publique — ouvrages concours administratifs</a><a href="https://www.cnfpt.fr/sites/default/files/standalone/1735900187/84-fiche-prepa-attache-concours.pdf" rel="noopener" target="_blank">CNFPT — fiche préparation attaché</a><a href="https://www.cdg69.fr/" rel="noopener" target="_blank">CDG 69 — concours et examens</a><a href="https://www.fncdg.com/" rel="noopener" target="_blank">FNCDG — centres de gestion</a></div><div class="resource-card"><h4>Veille territoriale</h4><a href="https://www.lagazettedescommunes.com/" rel="noopener" target="_blank">La Gazette des Communes</a><a href="https://www.banquedesterritoires.fr/" rel="noopener" target="_blank">Banque des Territoires</a><a href="https://www.strategie.gouv.fr/" rel="noopener" target="_blank">France Stratégie</a><a href="https://www.courdescomptes.fr/fr" rel="noopener" target="_blank">Cour des comptes</a></div><div class="resource-card"><h4>Méthode note administrative</h4><p class="small">À travailler : lecture du sujet, tri des documents, problématique, plan opérationnel, préconisations, style administratif.</p><a href="https://www.cnfpt.fr/" rel="noopener" target="_blank">CNFPT — rechercher une préparation</a><a href="https://www.vie-publique.fr/catalogue" rel="noopener" target="_blank">Vie publique — catalogue concours</a></div><div class="resource-card"><h4>Oral et posture professionnelle</h4><p class="small">À travailler : présentation du parcours, motivation, mise en situation managériale, culture territoriale et posture d'encadrement.</p><a href="https://www.cnfpt.fr/" rel="noopener" target="_blank">CNFPT — formations et préparations</a><a href="https://www.wikiterritorial.cnfpt.fr/" rel="noopener" target="_blank">Wikiterritorial — ressources générales</a></div></div></div>
 </section>
+
+<section id="agentPageParcours" class="panel agent-dedicated-page"><div class="card"><div class="topline"><h2>📅 Parcours de révision intelligent — objectif Attaché territorial</h2><button class="secondary agent-return-btn" onclick="returnToAgentPagesMenu()">⬅ Retour 📂 Pages dédiées de l’espace Agent</button></div><p class="muted">Ce parcours est relié à trois repères de suivi : 🏆 Mon passeport compétences, 🧠 Mes compétences à consolider et 📊 Mon tableau de progression.</p><div class="grid-3"><div class="diagnostic-card"><strong id="parcoursPasseportRef">Passeport</strong><span class="small">Valorisation des acquis</span></div><div class="diagnostic-card"><strong id="parcoursCompetenceRef">Compétences</strong><span class="small">Priorités à consolider</span></div><div class="diagnostic-card"><strong id="parcoursProgressionRef">Progression</strong><span class="small">Scores et évolution</span></div></div><div class="resource-path" id="resourcePath"><strong>📅 Parcours de révision intelligent — objectif Attaché territorial</strong><table><tr><th>Semaine</th><th>Domaine</th><th>Travail recommandé</th></tr><tr><td>1</td><td>Institutions</td><td>Fiches Vie publique + quiz ciblé</td></tr><tr><td>2</td><td>Collectivités / FPT</td><td>Wikiterritorial + cas pratiques</td></tr><tr><td>3</td><td>Finances locales</td><td>Budget, M57, principes budgétaires</td></tr><tr><td>4</td><td>RH / Management</td><td>Statut, droits et obligations, conduite du changement</td></tr><tr><td>5</td><td>Note administrative</td><td>Plan, diagnostic, propositions opérationnelles</td></tr><tr><td>6</td><td>Oral</td><td>Présentation, posture, mises en situation</td></tr></table></div><div class="notice small"><strong>Lien avec le suivi :</strong> les résultats du quiz alimentent automatiquement le passeport, le diagnostic de compétences et le tableau de progression. Le parcours sert ensuite de feuille de route pour organiser les révisions.</div></div></section>
 
 
 <section id="pilotage" class="panel">
   <div class="card">
-    <h2>📈 Pilotage stratégique — Concours, compétences et formation</h2>
+    <div class="topline"><h2>📈 Pilotage stratégique — Concours, compétences et formation</h2><button class="secondary agent-return-btn" onclick="returnToChooseSpace()">⬅ Retour espace Agent</button></div>
     <p class="muted">
       Illustration des indicateurs qui pourraient être mobilisés dans une logique de pilotage des compétences. Cet espace ne constitue pas un outil d’évaluation individuelle : il illustre comment une collectivité ou un organisme de formation pourrait suivre les tendances globales, les besoins de formation et les compétences à consolider.
     </p>
@@ -2135,7 +2333,7 @@ document.getElementById(&#x27;printBtn&#x27;).addEventListener(&#x27;click&#x27;
       <div class="kpi"><strong id="pilotSuccess">0%</strong>Taux de réussite moyen aux entraînements</div>
       <div class="kpi"><strong id="pilotAgents">0</strong>Agents préparés / parcours actifs</div>
       <div class="kpi"><strong id="pilotSavings">0 €</strong>Économies potentielles estimées</div>
-      <div class="kpi"><strong id="pilotCritical">0 / 10</strong>Compétences critiques couvertes</div>
+      <div class="kpi"><strong id="pilotCritical">0 / 7</strong>Compétences critiques couvertes</div>
     </div>
     <div class="pilotage-alert">
       <strong>Lecture stratégique :</strong>
@@ -2145,35 +2343,35 @@ document.getElementById(&#x27;printBtn&#x27;).addEventListener(&#x27;click&#x27;
 
   <div class="grid-3">
     <div class="pilotage-card">
-      <h3>🏛 Lecture DGS</h3>
+      <h3>🏛 Lecture Direction générale / DGS</h3>
       <table class="pilotage-table">
-        <tr><th>Indicateur</th><th>Utilité stratégique</th></tr>
-        <tr><td>Taux de réussite aux concours</td><td>Mesurer l’efficacité globale de l’accompagnement.</td></tr>
-        <tr><td>Nombre d’agents préparés</td><td>Identifier l’ampleur de la dynamique de professionnalisation.</td></tr>
-        <tr><td>Économies réalisées</td><td>Comparer autoformation accompagnée et formation externe systématique.</td></tr>
-        <tr><td>Compétences critiques couvertes</td><td>Repérer les domaines structurants pour la continuité du service public.</td></tr>
+        <tr><th>Indicateur</th><th>Ce que permet l’indicateur</th></tr>
+        <tr><td><strong>Taux de réussite aux concours et examens</strong></td><td>Évaluer si l’accompagnement proposé aide réellement les agents à progresser et à réussir.</td></tr>
+        <tr><td><strong>Nombre d’agents engagés dans une préparation</strong></td><td>Mesurer le niveau de mobilisation des agents dans une démarche de montée en compétences.</td></tr>
+        <tr><td><strong>Coût évité ou optimisé</strong></td><td>Comparer l’intérêt d’un accompagnement interne ou hybride avec le recours systématique à des formations externes.</td></tr>
+        <tr><td><strong>Compétences prioritaires couvertes</strong></td><td>Identifier les compétences utiles au bon fonctionnement des services et à la continuité du service public.</td></tr>
       </table>
     </div>
 
     <div class="pilotage-card">
-      <h3>👥 Lecture DRH</h3>
+      <h3>👥 Lecture DRH / Service formation</h3>
       <table class="pilotage-table">
-        <tr><th>Indicateur</th><th>Exploitation RH</th></tr>
-        <tr><td>Cartographie des compétences</td><td>Repérer les domaines maîtrisés, fragiles ou prioritaires.</td></tr>
-        <tr><td>Mobilité interne</td><td>Identifier les agents engagés dans un parcours d’évolution.</td></tr>
-        <tr><td>Préparation des successions</td><td>Anticiper les besoins sur les postes sensibles ou en tension.</td></tr>
-        <tr><td>Besoins de formation</td><td>Orienter le plan de formation vers les besoins réellement observés.</td></tr>
+        <tr><th>Indicateur</th><th>Utilisation RH possible</th></tr>
+        <tr><td><strong>Cartographie des compétences</strong></td><td>Repérer les domaines maîtrisés, les points de fragilité et les besoins prioritaires d’accompagnement.</td></tr>
+        <tr><td><strong>Parcours d’évolution des agents</strong></td><td>Identifier les agents engagés dans une démarche de concours, de mobilité ou de progression professionnelle.</td></tr>
+        <tr><td><strong>Anticipation des besoins internes</strong></td><td>Préparer les remplacements, les départs, les mobilités et les besoins sur les postes sensibles.</td></tr>
+        <tr><td><strong>Besoins de formation constatés</strong></td><td>Alimenter le plan de formation à partir de besoins réellement observés dans les résultats et les parcours.</td></tr>
       </table>
     </div>
 
     <div class="pilotage-card">
-      <h3>🎓 Lecture CNFPT / Formateur</h3>
+      <h3>🎓 Lecture Organisme de formation / Formateur</h3>
       <table class="pilotage-table">
-        <tr><th>Indicateur</th><th>Utilité pédagogique</th></tr>
-        <tr><td>Domaines les plus difficiles</td><td>Adapter les contenus et renforcer les séquences problématiques.</td></tr>
-        <tr><td>Taux de réussite par thème</td><td>Mesurer la progression par domaine de concours.</td></tr>
-        <tr><td>Besoins émergents</td><td>Identifier les sujets à renforcer : RGPD, numérique, transition écologique, finances.</td></tr>
-        <tr><td>Erreurs récurrentes</td><td>Construire des exercices ciblés et des cas pratiques plus progressifs.</td></tr>
+        <tr><th>Indicateur</th><th>Utilisation pédagogique possible</th></tr>
+        <tr><td><strong>Domaines les plus difficiles</strong></td><td>Identifier les thèmes qui posent le plus de difficultés aux agents afin d’adapter les contenus.</td></tr>
+        <tr><td><strong>Résultats par thème</strong></td><td>Suivre la progression des agents selon les domaines : culture territoriale, finances, RH, management, numérique, etc.</td></tr>
+        <tr><td><strong>Besoins émergents</strong></td><td>Repérer les sujets à renforcer dans les formations : RGPD, transition numérique, transition écologique, finances publiques, posture professionnelle.</td></tr>
+        <tr><td><strong>Erreurs fréquentes</strong></td><td>Construire des exercices plus ciblés, des cas pratiques progressifs et des corrections mieux adaptées aux difficultés rencontrées.</td></tr>
       </table>
     </div>
   </div>
@@ -2192,7 +2390,7 @@ document.getElementById(&#x27;printBtn&#x27;).addEventListener(&#x27;click&#x27;
       </table>
     </div>
 
-      <div class="card">
+    <div class="card">
       <h3>📌 Besoins de formation émergents</h3>
       <ul class="recommend-list">
         <li><strong>Note administrative :</strong> lecture de commande, tri documentaire, plan opérationnel.</li>
@@ -2211,7 +2409,7 @@ document.getElementById(&#x27;printBtn&#x27;).addEventListener(&#x27;click&#x27;
   <div class="card">
     <div class="topline">
       <h2>🏛️ Espace DRH / Service formation</h2>
-      <button onclick="openTab('agent')">Retour espace Agent</button>
+      <button onclick="returnToAgentSpace()">Retour espace Agent</button>
     </div>
     <p class="muted">
       Cet espace illustre comment les résultats de l'agent peuvent être utilisés par un service RH / formation
@@ -2298,161 +2496,11 @@ document.getElementById(&#x27;printBtn&#x27;).addEventListener(&#x27;click&#x27;
     </table>
   </div>
 </section>
-<section id="drh" class="panel">
-  <div class="card">
-    <div class="topline">
-      <h2>🏛️ Espace DRH / Service formation</h2>
-      <button onclick="openTab('agent')">Retour espace Agent</button>
-    </div>
-    <p class="muted">
-      Cet espace illustre comment les résultats de l'agent peuvent être utilisés par un service RH / formation
-      pour consolider la GPEC, préparer le plan de formation et suivre les parcours concours. Les données sont
-      ici fictives et servent uniquement de démonstration.
-    </p>
-
-    <div class="grid-3">
-      <div class="stat">
-        <strong id="drhAvg">0%</strong>
-        Niveau moyen (tous domaines)
-      </div>
-      <div class="stat">
-        <strong id="drhSeen">0</strong>
-        Questions traitées (base Agent)
-      </div>
-      <div class="stat">
-        <strong id="drhPriority">-</strong>
-        Priorité formation (diagnostic automatique)
-      </div>
-    </div>
-  </div>
-
-  <div class="grid-2">
-    <div class="card">
-      <h3>Cartographie GPEC automatique</h3>
-      <p class="muted">
-        Exemple de lecture des niveaux observés par compétence. Dans une vraie mise en œuvre, ces lignes seraient
-        générées automatiquement à partir des résultats des quiz TERRI'COMPÉTENCES.
-      </p>
-      <table>
-        <thead>
-          <tr>
-            <th>Compétence</th>
-            <th>Niveau observé</th>
-            <th>Risque</th>
-            <th>Action formation proposée</th>
-          </tr>
-        </thead>
-        <tbody id="drhRows">
-          <tr>
-            <td>Conduire un plan de formation territorial</td>
-            <td>2 / 4</td>
-            <td>Moyen</td>
-            <td>Stage CNFPT « Construire le plan de formation » + accompagnement interne</td>
-          </tr>
-          <tr>
-            <td>Mettre en place une démarche GPEC / GEPP</td>
-            <td>1 / 4</td>
-            <td>Fort</td>
-            <td>Formation GPEEC + atelier sur les référentiels métiers</td>
-          </tr>
-          <tr>
-            <td>Culture générale des collectivités territoriales</td>
-            <td>2 / 4</td>
-            <td>Moyen</td>
-            <td>Fiches de révision + quiz + journée CNFPT « Enjeux territoriaux »</td>
-          </tr>
-          <tr>
-            <td>Gestion des finances locales (M57, principes budgétaires)</td>
-            <td>1 / 4</td>
-            <td>Fort</td>
-            <td>Module finances locales + cas pratiques sur la plateforme</td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-
-    <div class="card">
-      <h3>Plan de formation recommandé</h3>
-      <p class="muted">
-        Exemple de regroupement des besoins par grandes catégories de formation, en cohérence avec les pratiques
-        territoriales (intégration / professionnalisation, perfectionnement, préparation aux concours et examens).
-      </p>
-      <table>
-        <thead>
-          <tr>
-            <th>Catégorie</th>
-            <th>Actions prévues</th>
-            <th>Actions réalisées</th>
-            <th>Agents concernés</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Intégration / professionnalisation</td>
-            <td>12</td>
-            <td>9</td>
-            <td>46</td>
-          </tr>
-          <tr>
-            <td>Perfectionnement</td>
-            <td>18</td>
-            <td>11</td>
-            <td>73</td>
-          </tr>
-          <tr>
-            <td>Préparation concours / examens</td>
-            <td>8</td>
-            <td>5</td>
-            <td>29</td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-  </div>
-
-  <div class="card">
-    <h3>Reporting concours</h3>
-    <p class="muted">
-      Illustration de l'utilisation des résultats pour suivre les agents engagés dans une préparation concours /
-      examen professionnel et articuler les parcours avec les besoins de la collectivité.
-    </p>
-    <table>
-      <thead>
-        <tr>
-          <th>Agent</th>
-          <th>Cadre d'emplois</th>
-          <th>Concours / examen</th>
-          <th>Préparation suivie</th>
-          <th>Niveau observé</th>
-          <th>Action DRH</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>A. Martin</td>
-          <td>Filière administrative – Rédacteur</td>
-          <td>Concours interne Attaché territorial</td>
-          <td>Prépa CNFPT + TERRI'COMPÉTENCES</td>
-          <td>62 % – Finances locales</td>
-          <td>Renforcer module finances + simulation orale</td>
-        </tr>
-        <tr>
-          <td>B. Dupont</td>
-          <td>Filière technique – Technicien</td>
-          <td>Examen pro Technicien principal</td>
-          <td>TERRI'COMPÉTENCES (mode Concours)</td>
-          <td>78 % – RH / management</td>
-          <td>Valider inscription prépa CNFPT</td>
-        </tr>
-      </tbody>
-    </table>
-  </div>
-</section>
 <section id="cnfpt" class="panel">
   <div class="card">
     <div class="topline">
       <h2>🎓 Espace Organisme de formation / Formateur</h2>
-      <button onclick="openTab('agent')">Retour espace Agent</button>
+      <button onclick="returnToAgentSpace()">Retour espace Agent</button>
     </div>
     <p class="muted">
       Cet espace permet à un organisme de formation (CNFPT, CDG, prestataire privé) de lire les résultats agrégés
@@ -2560,200 +2608,7 @@ document.getElementById(&#x27;printBtn&#x27;).addEventListener(&#x27;click&#x27;
     </div>
   </div>
 </section>
-<section id="cnfpt" class="panel">
-  <div class="card">
-    <div class="topline">
-      <h2>🎓 Espace Organisme de formation / Formateur</h2>
-      <button onclick="openTab('agent')">Retour espace Agent</button>
-    </div>
-    <p class="muted">
-      Cet espace permet à un organisme de formation (CNFPT, CDG, prestataire privé) de lire les résultats agrégés
-      des agents pour identifier les besoins pédagogiques, prioriser les sessions et ajuster les contenus en fonction
-      des difficultés observées. Les données affichées ici sont fictives et servent uniquement de démonstration.
-    </p>
 
-    <div class="grid-3">
-      <div class="stat">
-        <strong>127</strong>
-        Agents suivis
-      </div>
-      <div class="stat">
-        <strong>8</strong>
-        Sessions en cours
-      </div>
-      <div class="stat">
-        <strong>68%</strong>
-        Taux de réussite moyen
-      </div>
-    </div>
-  </div>
-
-  <div class="card">
-    <h3>📊 Analyse des résultats par session</h3>
-    <p class="muted">
-      Vue d'ensemble des sessions de formation en cours ou terminées, avec lecture des niveaux observés
-      et des difficultés rencontrées par les stagiaires.
-    </p>
-    <table>
-      <thead>
-        <tr>
-          <th>Session</th>
-          <th>Public</th>
-          <th>Effectif</th>
-          <th>Taux de réussite</th>
-          <th>Difficulté principale observée</th>
-          <th>Action pédagogique</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Prépa Attaché interne – Finances locales</td>
-          <td>Rédacteurs territoriaux</td>
-          <td>24</td>
-          <td>58%</td>
-          <td>Maîtrise du budget, lecture de la nomenclature M57</td>
-          <td>Ajouter cas pratiques + exercices M57 + fiche récap</td>
-        </tr>
-        <tr>
-          <td>Prépa Rédacteur principal – Note administrative</td>
-          <td>Rédacteurs</td>
-          <td>18</td>
-          <td>72%</td>
-          <td>Structuration du plan, gestion du temps</td>
-          <td>Session supplémentaire "Plan et méthode" + chronométrage</td>
-        </tr>
-        <tr>
-          <td>Prépa Technicien – Culture territoriale</td>
-          <td>Agents de maîtrise technique</td>
-          <td>31</td>
-          <td>64%</td>
-          <td>Connaissances sur l'intercommunalité et les compétences</td>
-          <td>Module complémentaire "Intercommunalité" + quiz</td>
-        </tr>
-        <tr>
-          <td>Prépa oral – Management et projet</td>
-          <td>Tous cadres A et B</td>
-          <td>15</td>
-          <td>81%</td>
-          <td>Gestion du stress, reformulation des questions jury</td>
-          <td>Simulation orale + vidéo + débriefing personnalisé</td>
-        </tr>
-      </tbody>
-    </table>
-  </div>
-
-  <div class="grid-2">
-    <div class="card">
-      <h3>🎯 Besoins pédagogiques prioritaires</h3>
-      <p class="muted">
-        Lecture des résultats pour identifier les contenus à renforcer dans l'offre de formation.
-      </p>
-      <table>
-        <thead>
-          <tr>
-            <th>Domaine</th>
-            <th>Niveau moyen observé</th>
-            <th>Priorité</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Finances locales (budget, M57, pilotage)</td>
-            <td>1,8 / 4</td>
-            <td>Très forte</td>
-          </tr>
-          <tr>
-            <td>Culture territoriale (collectivités, intercommunalité)</td>
-            <td>2,3 / 4</td>
-            <td>Forte</td>
-          </tr>
-          <tr>
-            <td>Note administrative (méthode, plan, rédaction)</td>
-            <td>2,6 / 4</td>
-            <td>Moyenne</td>
-          </tr>
-          <tr>
-            <td>RH et management (encadrement, conduite d'équipe)</td>
-            <td>3,1 / 4</td>
-            <td>Faible</td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-
-    <div class="card">
-      <h3>📚 Ressources pédagogiques à produire</h3>
-      <p class="muted">
-        Recommandations pour enrichir l'offre de contenus TERRI'COMPÉTENCES ou les supports de formation.
-      </p>
-      <ul class="recommend-list">
-        <li><strong>Finances locales :</strong> fiches synthèse M57, exercices guidés, cas pratiques réels.</li>
-        <li><strong>Intercommunalité :</strong> schémas explicatifs, tableaux de répartition des compétences.</li>
-        <li><strong>Note administrative :</strong> grilles de plan type, exemples commentés, corrigés détaillés.</li>
-        <li><strong>Oral de concours :</strong> vidéos de simulation, fiches posture, conseils anti-stress.</li>
-        <li><strong>Transitions (numérique, RGPD) :</strong> quiz interactifs, infographies, mises en situation.</li>
-      </ul>
-    </div>
-  </div>
-
-  <div class="card">
-    <h3>🔄 Suivi de la progression des stagiaires</h3>
-    <p class="muted">
-      Exemple de tableau de bord individuel pour suivre la progression d'un agent inscrit en préparation concours
-      et ajuster l'accompagnement pédagogique.
-    </p>
-    <table>
-      <thead>
-        <tr>
-          <th>Stagiaire</th>
-          <th>Session</th>
-          <th>Quiz réalisés</th>
-          <th>Taux de réussite</th>
-          <th>Points forts</th>
-          <th>Points à renforcer</th>
-          <th>Action formateur</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>C. Moreau</td>
-          <td>Prépa Attaché interne</td>
-          <td>12 / 15</td>
-          <td>67%</td>
-          <td>Culture territoriale, droit public</td>
-          <td>Finances locales, gestion budgétaire</td>
-          <td>Proposer module finances + tutorat</td>
-        </tr>
-        <tr>
-          <td>D. Bernard</td>
-          <td>Prépa Rédacteur principal</td>
-          <td>10 / 12</td>
-          <td>78%</td>
-          <td>Note administrative, plan structuré</td>
-          <td>Gestion du temps, synthèse</td>
-          <td>Entraînement chronométré + exercices courts</td>
-        </tr>
-        <tr>
-          <td>E. Petit</td>
-          <td>Prépa oral – Management</td>
-          <td>8 / 10</td>
-          <td>84%</td>
-          <td>Posture, motivation, projet pro</td>
-          <td>Reformulation, gestion des questions pièges</td>
-          <td>Simulation orale + débriefing vidéo</td>
-        </tr>
-      </tbody>
-    </table>
-  </div>
-
-  <div class="card">
-    <div class="notice small">
-      Ces indicateurs sont fournis à titre démonstratif uniquement. Dans un déploiement réel, ils devraient être
-      anonymisés, sécurisés et encadrés par une convention de partenariat entre la collectivité et l'organisme de formation,
-      dans le respect du RGPD et de la gouvernance RH.
-    </div>
-  </div>
-</section>
 
 <div class="card">
 <h2>🎯 Conclusion</h2>
@@ -3586,37 +3441,41 @@ function auditScoreAutomation(){
 }
 
 
+
 function updateLiveDateTime(){
   const box = document.getElementById('liveDateTime');
   if(!box) return;
 
   let dateEl = box.querySelector('.dt-date');
   let timeEl = box.querySelector('.dt-time');
+
   if(!dateEl || !timeEl){
-    box.innerHTML = '<span class="dt-label">Version du prototype</span><span class="dt-date"></span><span class="dt-time"></span>';
+    box.innerHTML = '<span class="dt-label">VERSION DU PROTOTYPE</span><span class="dt-date"></span><span class="dt-time"></span>';
     dateEl = box.querySelector('.dt-date');
     timeEl = box.querySelector('.dt-time');
   }
 
   const now = new Date();
-  const date = now.toLocaleDateString('fr-FR', {
+
+  dateEl.textContent = '📅 ' + now.toLocaleDateString('fr-FR', {
     weekday:'long',
     day:'2-digit',
     month:'long',
     year:'numeric'
   });
-  const time = now.toLocaleTimeString('fr-FR', {
+
+  timeEl.textContent = '🕒 ' + now.toLocaleTimeString('fr-FR', {
     hour:'2-digit',
     minute:'2-digit',
     second:'2-digit'
   });
-
-  dateEl.textContent = '📅 ' + date;
-  timeEl.textContent = '🕒 ' + time;
 }
 
-window.addEventListener('DOMContentLoaded', function(){
+document.addEventListener('DOMContentLoaded', function(){
   updateLiveDateTime();
+  if(window.__terriClockInterval){
+    clearInterval(window.__terriClockInterval);
+  }
   window.__terriClockInterval = setInterval(updateLiveDateTime, 1000);
 });
 
@@ -3624,12 +3483,34 @@ window.addEventListener('DOMContentLoaded',init);
 
 
 function showAgentFAQ(){
+  document.querySelectorAll('.panel').forEach(function(panel){
+    panel.classList.remove('active');
+  });
+
+  const agentPanel = document.getElementById('agent');
+  if(agentPanel){
+    agentPanel.classList.add('active');
+  }
+
+  document.querySelectorAll('.space-card').forEach(function(card){
+    card.classList.remove('active');
+  });
+
+  const agentCard = document.querySelector('.space-card[data-tab="agent"]');
+  if(agentCard){
+    agentCard.classList.add('active');
+  }
+
   const el=document.getElementById('agentFAQPage');
-  if(el){ el.classList.remove('hidden'); el.scrollIntoView({behavior:'smooth'}); }
-}
-function hideAgentFAQ(){
+  if(el){
+    el.classList.remove('hidden');
+    setTimeout(function(){
+      el.scrollIntoView({behavior:'smooth', block:'start'});
+    },80);
+  }
+} function hideAgentFAQ(){
   const el=document.getElementById('agentFAQPage');
-  if(el){ el.classList.add('hidden'); document.getElementById('ressourcesConcours')?.scrollIntoView({behavior:'smooth'}); }
+  if(el){ el.classList.add('hidden'); document.getElementById('agentPageTrames')?.scrollIntoView({behavior:'smooth'}); }
 }
 function showTrameCatA(){
   const el=document.getElementById('trameCatAPage');
@@ -3637,7 +3518,7 @@ function showTrameCatA(){
 }
 function hideTrameCatA(){
   const el=document.getElementById('trameCatAPage');
-  if(el){ el.classList.add('hidden'); document.getElementById('ressourcesConcours')?.scrollIntoView({behavior:'smooth'}); }
+  if(el){ el.classList.add('hidden'); document.getElementById('agentPageTrames')?.scrollIntoView({behavior:'smooth'}); }
 }
 function showTrameCatB(){
   const el=document.getElementById('trameCatBPage');
@@ -3645,7 +3526,7 @@ function showTrameCatB(){
 }
 function hideTrameCatB(){
   const el=document.getElementById('trameCatBPage');
-  if(el){ el.classList.add('hidden'); document.getElementById('ressourcesConcours')?.scrollIntoView({behavior:'smooth'}); }
+  if(el){ el.classList.add('hidden'); document.getElementById('agentPageTrames')?.scrollIntoView({behavior:'smooth'}); }
 }
 function showTrameCatC(){
   const el=document.getElementById('trameCatCPage');
@@ -3653,7 +3534,7 @@ function showTrameCatC(){
 }
 function hideTrameCatC(){
   const el=document.getElementById('trameCatCPage');
-  if(el){ el.classList.add('hidden'); document.getElementById('ressourcesConcours')?.scrollIntoView({behavior:'smooth'}); }
+  if(el){ el.classList.add('hidden'); document.getElementById('agentPageTrames')?.scrollIntoView({behavior:'smooth'}); }
 }
 function showTrameExamenPro(){
   const el=document.getElementById('trameExamenProPage');
@@ -3661,7 +3542,7 @@ function showTrameExamenPro(){
 }
 function hideTrameExamenPro(){
   const el=document.getElementById('trameExamenProPage');
-  if(el){ el.classList.add('hidden'); document.getElementById('ressourcesConcours')?.scrollIntoView({behavior:'smooth'}); }
+  if(el){ el.classList.add('hidden'); document.getElementById('agentPageTrames')?.scrollIntoView({behavior:'smooth'}); }
 }
 
 
@@ -3708,43 +3589,491 @@ document.addEventListener('DOMContentLoaded', function(){
 
 </script>
 
+
 <script>
-function openSpaceNewPage(tab){
-  const cleanUrl = window.location.href.split('#')[0];
-  window.open(cleanUrl + '#' + tab, '_blank');
+function openAgentDedicatedPage(pageId){
+  document.querySelectorAll('.panel').forEach(function(panel){ panel.classList.remove('active'); });
+  const page=document.getElementById(pageId);
+  if(page){
+    page.classList.add('active');
+    if(typeof updateAll === 'function') updateAll();
+    if(typeof updateConcoursContext === 'function') updateConcoursContext();
+    if(history.replaceState){ history.replaceState(null,'','#'+pageId); }
+    setTimeout(function(){ page.scrollIntoView({behavior:'smooth', block:'start'}); },80);
+  }
 }
+function returnToAgentSpace(){
+  document.querySelectorAll('.panel').forEach(function(panel){ panel.classList.remove('active'); });
+  const agent=document.getElementById('agent');
+  const choose=document.getElementById('choisissezEspace');
+  if(agent){
+    agent.classList.add('active');
+    document.querySelectorAll('.space-card').forEach(function(card){ card.classList.toggle('active', card.dataset.tab === 'agent'); });
+    if(history.replaceState){ history.replaceState(null,'','#choisissezEspace'); }
+    if(typeof updateAll === 'function') updateAll();
+    setTimeout(function(){
+      if(choose){
+        choose.scrollIntoView({behavior:'smooth', block:'start'});
+      }else{
+        window.scrollTo({top:0, behavior:'smooth'});
+      }
+    },80);
+  }
+}
+</script>
+<script>
+(function(){
+  const allowedSpaces = ['agent','drh','cnfpt','pilotage','limites','agentPageJury','agentPageTrames','agentPageFiches','agentPageThematiques','agentPageRessources','agentPageParcours'];
 
-function openSpaceFromHash(){
-  const tab = window.location.hash ? window.location.hash.replace('#','') : '';
-  const allowed = ['agent','drh','cnfpt','pilotage','limites'];
-  if(!allowed.includes(tab)) return;
+  function activateSpace(tab, shouldScroll){
+    if(!allowedSpaces.includes(tab)) return;
 
-  if(typeof openTab === 'function'){
-    openTab(tab);
-  } else {
-    document.querySelectorAll('.panel').forEach(function(p){
-      p.classList.remove('active');
+    document.querySelectorAll('.panel').forEach(function(panel){
+      panel.classList.remove('active');
     });
-    const panel = document.getElementById(tab);
-    if(panel) panel.classList.add('active');
 
-    document.querySelectorAll('.space-card').forEach(function(c){
-      c.classList.remove('active');
+    const selectedPanel = document.getElementById(tab);
+    if(selectedPanel){
+      selectedPanel.classList.add('active');
+    }
+
+    document.querySelectorAll('.space-card').forEach(function(card){
+      card.classList.toggle('active', card.dataset.tab === tab);
     });
-    const card = document.querySelector('.space-card[data-tab="' + tab + '"]');
-    if(card) card.classList.add('active');
+
+    if(typeof updateAll === 'function') updateAll();
+    if(typeof updatePilotage === 'function') updatePilotage();
+
+    if(history.replaceState){
+      history.replaceState(null, '', '#' + tab);
+    }
+
+    if(shouldScroll && selectedPanel){
+      setTimeout(function(){
+        selectedPanel.scrollIntoView({behavior:'smooth', block:'start'});
+      }, 80);
+    }
+  }
+
+  // Fonction utilisée par les cartes "Choisissez votre espace".
+  // Elle n'ouvre plus de nouvel onglet et ne remonte plus vers l'avertissement.
+  window.openSpaceNewPage = function(tab){
+    activateSpace(tab, true);
+  };
+
+  // Remplace l'ancien openTab qui faisait remonter la page à 180px.
+  window.openTab = function(tab){
+    activateSpace(tab, true);
+  };
+
+  function openSpaceFromHash(){
+    const tab = window.location.hash ? window.location.hash.replace('#','') : 'agent';
+    if(allowedSpaces.includes(tab)){
+      activateSpace(tab, !!window.location.hash);
+    }
+  }
+
+  window.addEventListener('DOMContentLoaded', openSpaceFromHash);
+  window.addEventListener('hashchange', openSpaceFromHash);
+})();
+</script>
+<script>
+/* Ouverture initiale : afficher l’accueil TERRI'COMPÉTENCES en haut de page. */
+(function(){
+  function openAtHomeIfNeeded(){
+    const hash = window.location.hash || '';
+    if(hash === '' || hash === '#agent'){
+      if(history.replaceState){
+        history.replaceState(null, '', window.location.pathname + window.location.search);
+      }
+      setTimeout(function(){
+        window.scrollTo({top:0, left:0, behavior:'auto'});
+      }, 120);
+    }
+  }
+  window.addEventListener('DOMContentLoaded', openAtHomeIfNeeded);
+  window.addEventListener('load', openAtHomeIfNeeded);
+})();
+</script>
+
+
+<script>
+function returnToAgentPagesMenu(){
+  document.querySelectorAll('.panel').forEach(function(panel){
+    panel.classList.remove('active');
+  });
+
+  const agentPanel = document.getElementById('agent');
+  if(agentPanel){
+    agentPanel.classList.add('active');
+  }
+
+  document.querySelectorAll('.space-card').forEach(function(card){
+    card.classList.remove('active');
+  });
+
+  const agentCard = document.querySelector('.space-card[data-tab="agent"]');
+  if(agentCard){
+    agentCard.classList.add('active');
+  }
+
+  if(history.replaceState){
+    history.replaceState(null, '', window.location.pathname + window.location.search + '#agent-pages');
   }
 
   setTimeout(function(){
-    const panel = document.getElementById(tab);
-    if(panel){
-      panel.scrollIntoView({behavior:'smooth', block:'start'});
+    const target = document.querySelector('.agent-pages-label');
+    if(target){
+      target.scrollIntoView({behavior:'smooth', block:'start'});
+    } else if(agentPanel){
+      agentPanel.scrollIntoView({behavior:'smooth', block:'start'});
     }
-  }, 250);
+  }, 80);
+}
+</script>
+
+
+<script>
+function returnToChooseSpace(){
+  document.querySelectorAll('.panel').forEach(function(panel){
+    panel.classList.remove('active');
+  });
+
+  document.querySelectorAll('.space-card').forEach(function(card){
+    card.classList.remove('active');
+  });
+
+  if(history.replaceState){
+    history.replaceState(null, '', window.location.pathname + window.location.search);
+  }
+
+  setTimeout(function(){
+    const target = document.getElementById('choisissezEspace');
+    if(target){
+      target.scrollIntoView({behavior:'smooth', block:'start'});
+    } else {
+      window.scrollTo({top:0, behavior:'smooth'});
+    }
+  }, 80);
+}
+</script>
+
+
+<script>
+function toggleHomeFAQ(){
+  const faq = document.getElementById('agentFAQPage');
+  if(!faq) return;
+
+  faq.classList.toggle('hidden');
+
+  if(!faq.classList.contains('hidden')){
+    setTimeout(function(){
+      faq.scrollIntoView({behavior:'smooth', block:'start'});
+    }, 80);
+  }
+}
+</script>
+
+
+<script>
+/* Correctif navigation espaces principaux — ne modifie pas les scores ni l'horloge */
+function openSpaceNewPage(tab){
+  document.querySelectorAll('.panel').forEach(function(panel){
+    panel.classList.remove('active');
+  });
+
+  const target = document.getElementById(tab);
+  if(target){
+    target.classList.add('active');
+  }
+
+  document.querySelectorAll('.space-card').forEach(function(card){
+    card.classList.remove('active');
+  });
+
+  const card = document.querySelector('.space-card[data-tab="' + tab + '"]');
+  if(card){
+    card.classList.add('active');
+  }
+
+  if(history.replaceState){
+    history.replaceState(null, '', window.location.pathname + window.location.search + '#' + tab);
+  }
+
+  setTimeout(function(){
+    if(target){
+      target.scrollIntoView({behavior:'smooth', block:'start'});
+    }
+  }, 80);
+
+  if(tab === 'pilotage' && typeof updatePilotage === 'function'){
+    updatePilotage();
+  }
+  if(tab === 'drh' && typeof updateDRH === 'function'){
+    updateDRH();
+  }
+  if(tab === 'cnfpt' && typeof updateCNFPT === 'function'){
+    updateCNFPT();
+  }
 }
 
-window.addEventListener('DOMContentLoaded', openSpaceFromHash);
-window.addEventListener('hashchange', openSpaceFromHash);
+function returnToChooseSpace(){
+  document.querySelectorAll('.panel').forEach(function(panel){
+    panel.classList.remove('active');
+  });
+
+  document.querySelectorAll('.space-card').forEach(function(card){
+    card.classList.remove('active');
+  });
+
+  if(history.replaceState){
+    history.replaceState(null, '', window.location.pathname + window.location.search);
+  }
+
+  setTimeout(function(){
+    const target = document.getElementById('choisissezEspace');
+    if(target){
+      target.scrollIntoView({behavior:'smooth', block:'start'});
+    } else {
+      window.scrollTo({top:0, behavior:'smooth'});
+    }
+  }, 80);
+}
+</script>
+
+
+<script>
+function openSpaceNewPage(tab){
+  const target = document.getElementById(tab);
+  if(!target) return;
+
+  document.querySelectorAll('.panel').forEach(function(panel){
+    panel.classList.remove('active');
+  });
+
+  target.classList.add('active');
+
+  document.querySelectorAll('.space-card').forEach(function(card){
+    card.classList.remove('active');
+  });
+
+  const selectedCard = document.querySelector('.space-card[data-tab="' + tab + '"]');
+  if(selectedCard){
+    selectedCard.classList.add('active');
+  }
+
+  if(history.replaceState){
+    history.replaceState(null, '', window.location.pathname + window.location.search + '#' + tab);
+  }
+
+  if(tab === 'pilotage' && typeof updatePilotage === 'function') updatePilotage();
+  if(tab === 'drh' && typeof updateDRH === 'function') updateDRH();
+  if(tab === 'cnfpt' && typeof updateCNFPT === 'function') updateCNFPT();
+
+  setTimeout(function(){
+    target.scrollIntoView({behavior:'smooth', block:'start'});
+  }, 80);
+}
+
+function returnToChooseSpace(){
+  document.querySelectorAll('.panel').forEach(function(panel){
+    panel.classList.remove('active');
+  });
+
+  document.querySelectorAll('.space-card').forEach(function(card){
+    card.classList.remove('active');
+  });
+
+  if(history.replaceState){
+    history.replaceState(null, '', window.location.pathname + window.location.search);
+  }
+
+  setTimeout(function(){
+    const target = document.getElementById('choisissezEspace');
+    if(target){
+      target.scrollIntoView({behavior:'smooth', block:'start'});
+    } else {
+      window.scrollTo({top:0, behavior:'smooth'});
+    }
+  }, 80);
+}
+</script>
+
+
+
+
+
+
+
+
+<script>
+let smartSearchResults = [];
+
+function normalizeSearchText(value){
+  return (value || "")
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "");
+}
+
+function cleanSearchText(value){
+  return (value || "").replace(/\s+/g, " ").trim();
+}
+
+function getSearchLabel(el){
+  const panel = el.closest('.panel');
+  if(panel && panel.id){
+    const panelTitle = panel.querySelector('h2, h3');
+    if(panelTitle) return cleanSearchText(panelTitle.textContent);
+  }
+
+  const sectionTitle = el.closest('.card, .notice, .resource-card, .revision-card, .thematique-card, .pilotage-card');
+  if(sectionTitle){
+    const title = sectionTitle.querySelector('h2, h3, h4, strong');
+    if(title) return cleanSearchText(title.textContent);
+  }
+
+  return "Page d’accueil";
+}
+
+function getSearchContext(el, keyword){
+  let text = cleanSearchText(el.textContent);
+  if(text.length > 95) text = text.substring(0, 95) + "...";
+  return text;
+}
+
+function openPanelForSmartResult(el){
+  const panel = el.closest('.panel');
+  if(panel && panel.id){
+    document.querySelectorAll('.panel').forEach(function(p){
+      p.classList.remove('active');
+    });
+    panel.classList.add('active');
+
+    document.querySelectorAll('.space-card').forEach(function(card){
+      card.classList.remove('active');
+      if(card.getAttribute('data-tab') === panel.id){
+        card.classList.add('active');
+      }
+    });
+  }
+}
+
+function goToSmartResult(index){
+  const result = smartSearchResults[index];
+  if(!result) return;
+
+  document.querySelectorAll('.search-current').forEach(function(el){
+    el.classList.remove('search-current');
+  });
+
+  const el = result.element;
+  openPanelForSmartResult(el);
+
+  el.classList.add('search-current');
+
+  setTimeout(function(){
+    el.scrollIntoView({behavior:'smooth', block:'center'});
+  }, 120);
+
+  setTimeout(function(){
+    el.classList.remove('search-current');
+  }, 2600);
+}
+
+function searchSiteContent(){
+  const input = document.getElementById('siteSearch');
+  const counter = document.getElementById('searchCounter');
+  const resultsBox = document.getElementById('searchResultsBox');
+  if(!input || !counter || !resultsBox) return;
+
+  const keyword = normalizeSearchText(input.value.trim());
+
+  document.querySelectorAll('.search-current').forEach(function(el){
+    el.classList.remove('search-current');
+  });
+
+  smartSearchResults = [];
+  resultsBox.innerHTML = "";
+  resultsBox.style.display = "none";
+
+  if(keyword.length < 2){
+    counter.textContent = "";
+    return;
+  }
+
+  const selector = [
+    'h1','h2','h3','h4','p','li','td','th','label','strong','button','a',
+    '.question','.resource-card h4','.resource-card p',
+    '.revision-card h4','.revision-card p',
+    '.thematique-card h4','.thematique-card p',
+    '.pilotage-card h4','.pilotage-card p',
+    '.about-modal-box h3','.about-modal-box li','.about-modal-box p'
+  ].join(',');
+
+  const candidates = Array.from(document.querySelectorAll(selector)).filter(function(el){
+    if(el.closest('script') || el.closest('style')) return false;
+    if(el.closest('.search-box')) return false;
+    if(el.id === 'siteSearch' || el.id === 'searchCounter' || el.id === 'searchResultsBox') return false;
+
+    const normalized = normalizeSearchText(el.textContent);
+    if(!normalized.includes(keyword)) return false;
+
+    const childHasMatch = Array.from(el.children || []).some(function(child){
+      return normalizeSearchText(child.textContent).includes(keyword);
+    });
+
+    if(childHasMatch && !['TD','TH','LI','BUTTON','A'].includes(el.tagName)) return false;
+
+    return true;
+  });
+
+  const seen = new Set();
+
+  candidates.forEach(function(el){
+    const title = getSearchLabel(el);
+    const context = getSearchContext(el, keyword);
+    const key = title + "::" + context;
+
+    if(seen.has(key)) return;
+    seen.add(key);
+
+    smartSearchResults.push({
+      element: el,
+      title: title,
+      context: context
+    });
+  });
+
+  if(smartSearchResults.length === 0){
+    counter.textContent = "Aucun résultat";
+    return;
+  }
+
+  counter.textContent = smartSearchResults.length + " résultat" + (smartSearchResults.length > 1 ? "s" : "") + " trouvé" + (smartSearchResults.length > 1 ? "s" : "");
+  resultsBox.style.display = "block";
+
+  smartSearchResults.slice(0, 12).forEach(function(result, index){
+    const btn = document.createElement('button');
+    btn.type = 'button';
+    btn.className = 'search-result-item';
+    btn.innerHTML =
+      '<span class="search-result-title">' + (index + 1) + '. ' + result.title + '</span>' +
+      '<span class="search-result-context">' + result.context + '</span>';
+    btn.onclick = function(){
+      goToSmartResult(index);
+    };
+    resultsBox.appendChild(btn);
+  });
+
+  if(smartSearchResults.length > 12){
+    const more = document.createElement('div');
+    more.className = 'search-result-context';
+    more.style.padding = '6px 8px';
+    more.textContent = '+ ' + (smartSearchResults.length - 12) + ' autres résultats. Précisez le mot-clé.';
+    resultsBox.appendChild(more);
+  }
+}
 </script>
 
 </body>
