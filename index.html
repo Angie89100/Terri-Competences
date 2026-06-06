@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -617,6 +619,41 @@ padding:12px;
 .agent-dedicated-page .topline.card{margin-bottom:16px;}
 .agent-return-btn{white-space:nowrap;}
 @media(max-width:900px){.agent-return-btn{width:100%;}.agent-dedicated-page .topline{align-items:stretch;}}
+
+
+/* Boutons intégrés dans la carte Agent */
+.agent-extra-buttons{
+  display:flex;
+  flex-direction:column;
+  gap:8px;
+  margin:10px 0 8px;
+}
+.agent-extra-buttons a{
+  display:block;
+  text-align:center;
+  color:#fff;
+  text-decoration:none;
+  border-radius:11px;
+  padding:9px 10px;
+  font-size:12px;
+  font-weight:800;
+  line-height:1.25;
+  box-shadow:0 6px 14px rgba(15,23,42,.10);
+  transition:.18s ease;
+}
+.agent-extra-buttons a:hover{
+  transform:translateY(-1px);
+  filter:brightness(.96);
+}
+.agent-extra-buttons .btn-redaction-agent{
+  background:linear-gradient(135deg,#15803d,#166534);
+  border:1px solid #14532d;
+}
+.agent-extra-buttons .btn-concours-agent{
+  background:linear-gradient(135deg,#d97706,#b45309);
+  border:1px solid #92400e;
+}
+
 </style>
 
 <style>
@@ -843,7 +880,7 @@ border-radius:10px;
 color:#111827;
 line-height:1.6;
 ">
-<strong>AVERTISSEMENT</strong><br><br>
+<strong>⚠️ AVERTISSEMENT – PROTOTYPE DE DÉMONSTRATION</strong><br><br>
 TERRI'COMPÉTENCES n'a pas vocation à constituer un projet prêt à être déployé, ni une plateforme officielle.
 <br><br>
 Il s'agit d'un prototype personnel réalisé pour illustrer une démarche professionnelle : partir d'un besoin identifié sur le terrain, constater une attente non couverte de manière suffisante, puis transformer ce constat en proposition structurée.
@@ -1148,7 +1185,32 @@ Analyse des besoins • Gestion de projet • Ressources humaines • GPEC • I
 </div>
 <h2 id="choisissezEspace">Choisissez votre espace</h2>
 <section class="space-grid">
-<article class="space-card active" data-tab="agent" onclick="openSpaceNewPage('agent')"><div class="icon">👤</div><h3>Espace Utilisateur — Agent</h3><p class="muted">Préparer un concours, s'entraîner, être corrigé, suivre sa progression et exporter son passeport compétences.</p><span class="pill">Quiz</span><span class="pill">Oral</span><span class="pill">PDF</span></article>
+<article class="space-card active" data-tab="agent" onclick="openSpaceNewPage('agent')">
+  <div class="icon">👤</div>
+  <h3>Espace Utilisateur — Agent</h3>
+  <p class="muted">Préparer un concours, s'entraîner, être corrigé, suivre sa progression et exporter son passeport compétences.</p>
+
+  <div class="agent-extra-buttons" aria-label="Modules de préparation attaché territorial">
+   <a href="Apprendre à rédiger comme un attaché.html"
+   target="_blank"
+   class="btn-redaction-agent"
+   onclick="event.stopPropagation();">
+   ✍️ Apprendre à rédiger comme un attaché ↗
+</a>
+
+<a href="CONCOURS ATTACHÉ TERRITORIAL EXTERNE.html"
+   target="_blank"
+   class="btn-concours-agent"
+   onclick="event.stopPropagation();">
+   🏛️ CONCOURS ATTACHÉ TERRITORIAL EXTERNE ↗
+</a>
+
+  <div class="pills">
+    <span class="pill">Quiz</span>
+    <span class="pill">Oral</span>
+    <span class="pill">PDF</span>
+  </div>
+</article>
 <article class="space-card" data-tab="drh" onclick="openSpaceNewPage('drh')"><div class="icon">🏛️</div><h3>Espace DRH / Service formation</h3><p class="muted">Cartographier les compétences, piloter la GPEC, construire le plan de formation et suivre les concours.</p><span class="pill">GPEC</span><span class="pill">Talents</span><span class="pill">Reporting</span></article>
 <article class="space-card" data-tab="cnfpt" onclick="openSpaceNewPage('cnfpt')"><div class="icon">🎓</div><h3>Espace Organisme de formation / Formateur</h3><p class="muted">Gérer les sessions, construire les contenus, suivre les stagiaires et améliorer l'offre pédagogique.</p><span class="pill">Sessions</span><span class="pill">Pédagogie</span><span class="pill">National</span></article>
 <article class="space-card" data-tab="pilotage" onclick="openSpaceNewPage('pilotage')"><div class="icon">📈</div><h3>Espace Pilotage stratégique</h3><p class="muted">Illustration des indicateurs qui pourraient être mobilisés dans une logique de pilotage des compétences.</p><span class="pill">DGS</span><span class="pill">DRH</span><span class="pill">CNFPT</span></article>
